@@ -1,0 +1,7 @@
+# Copy to .dev.vars for local testing with: npx wrangler pages dev
+# Never commit .dev.vars. In production set these in Cloudflare Pages > Settings > Variables and Secrets.
+RESEND_API_KEY=re_xxxxxxxxxxxxxxxx
+INQUIRY_TO_EMAIL=sales@yourdomain.com
+INQUIRY_FROM_EMAIL=GONI Website <inquiry@yourdomain.com>
+# INQUIRY_WEBHOOK_URL=https://script.google.com/macros/s/xxxx/exec
+# ALLOWED_ORIGIN=https://www.yourdomain.com

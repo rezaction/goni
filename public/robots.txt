@@ -1,0 +1,3 @@
+# DEMO: remove this block and restore the sitemap line before the real launch
+User-agent: *
+Disallow: /

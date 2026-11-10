@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://www.goni.example/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/"/>
+  </url>
+  <url><loc>https://www.goni.example/about/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/tentang-kami/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/"/>
+  </url>
+  <url><loc>https://www.goni.example/about/certifications/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/certifications/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/sertifikasi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/certifications/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/tentang-kami/sertifikasi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/certifications/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/sertifikasi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/certifications/"/>
+  </url>
+  <url><loc>https://www.goni.example/about/company-profile/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/company-profile/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/profil-perusahaan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/company-profile/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/tentang-kami/profil-perusahaan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/company-profile/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/profil-perusahaan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/company-profile/"/>
+  </url>
+  <url><loc>https://www.goni.example/about/facilities/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/facilities/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/fasilitas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/facilities/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/tentang-kami/fasilitas/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/facilities/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/fasilitas/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/facilities/"/>
+  </url>
+  <url><loc>https://www.goni.example/about/quality-assurance/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/quality-assurance/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/jaminan-mutu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/quality-assurance/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/tentang-kami/jaminan-mutu/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/about/quality-assurance/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/tentang-kami/jaminan-mutu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/about/quality-assurance/"/>
+  </url>
+  <url><loc>https://www.goni.example/contact/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/contact/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/kontak/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/contact/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/kontak/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/contact/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/kontak/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/contact/"/>
+  </url>
+  <url><loc>https://www.goni.example/how-it-works/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/cara-kerja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/how-it-works/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/cara-kerja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/how-it-works/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/cara-kerja/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/how-it-works/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/choosing-a-contract-manufacturer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/choosing-a-contract-manufacturer/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/memilih-pabrik-maklon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/choosing-a-contract-manufacturer/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/memilih-pabrik-maklon/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/choosing-a-contract-manufacturer/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/memilih-pabrik-maklon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/choosing-a-contract-manufacturer/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/how-powdered-drinks-are-made/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/how-powdered-drinks-are-made/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/cara-membuat-minuman-serbuk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/how-powdered-drinks-are-made/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/cara-membuat-minuman-serbuk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/how-powdered-drinks-are-made/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/cara-membuat-minuman-serbuk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/how-powdered-drinks-are-made/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/how-to-decide-moq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/how-to-decide-moq/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/cara-menentukan-moq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/how-to-decide-moq/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/cara-menentukan-moq/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/how-to-decide-moq/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/cara-menentukan-moq/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/how-to-decide-moq/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/how-to-start-a-drink-brand/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/how-to-start-a-drink-brand/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/panduan-memulai-brand-minuman/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/how-to-start-a-drink-brand/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/panduan-memulai-brand-minuman/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/how-to-start-a-drink-brand/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/panduan-memulai-brand-minuman/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/how-to-start-a-drink-brand/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/oem-odm-private-label-white-label/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/oem-odm-private-label-white-label/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/perbedaan-oem-odm-private-label/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/oem-odm-private-label-white-label/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/perbedaan-oem-odm-private-label/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/oem-odm-private-label-white-label/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/perbedaan-oem-odm-private-label/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/oem-odm-private-label-white-label/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/powdered-drink-ingredients/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/powdered-drink-ingredients/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/bahan-baku-minuman-serbuk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/powdered-drink-ingredients/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/bahan-baku-minuman-serbuk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/powdered-drink-ingredients/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/bahan-baku-minuman-serbuk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/powdered-drink-ingredients/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/quality-control-in-food-manufacturing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/quality-control-in-food-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/proses-quality-control-pangan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/quality-control-in-food-manufacturing/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/proses-quality-control-pangan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/quality-control-in-food-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/proses-quality-control-pangan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/quality-control-in-food-manufacturing/"/>
+  </url>
+  <url><loc>https://www.goni.example/insights/what-is-contract-manufacturing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/what-is-contract-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/apa-itu-jasa-maklon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/what-is-contract-manufacturing/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/wawasan/apa-itu-jasa-maklon/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/insights/what-is-contract-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/wawasan/apa-itu-jasa-maklon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/insights/what-is-contract-manufacturing/"/>
+  </url>
+  <url><loc>https://www.goni.example/portfolio/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/portofolio/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/"/>
+  </url>
+  <url><loc>https://www.goni.example/portfolio/dapur-nusa-rendang-mix/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/dapur-nusa-rendang-mix/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/dapur-nusa-rendang-mix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/dapur-nusa-rendang-mix/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/portofolio/dapur-nusa-rendang-mix/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/dapur-nusa-rendang-mix/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/dapur-nusa-rendang-mix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/dapur-nusa-rendang-mix/"/>
+  </url>
+  <url><loc>https://www.goni.example/portfolio/jahe-merah-warung-sehat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/jahe-merah-warung-sehat/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/jahe-merah-warung-sehat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/jahe-merah-warung-sehat/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/portofolio/jahe-merah-warung-sehat/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/jahe-merah-warung-sehat/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/jahe-merah-warung-sehat/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/jahe-merah-warung-sehat/"/>
+  </url>
+  <url><loc>https://www.goni.example/portfolio/kebun-pagi-arabica-blend/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/kebun-pagi-arabica-blend/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/kebun-pagi-arabica-blend/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/kebun-pagi-arabica-blend/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/portofolio/kebun-pagi-arabica-blend/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/kebun-pagi-arabica-blend/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/kebun-pagi-arabica-blend/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/kebun-pagi-arabica-blend/"/>
+  </url>
+  <url><loc>https://www.goni.example/portfolio/kopi-sore-brown-sugar-latte/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/kopi-sore-brown-sugar-latte/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/kopi-sore-brown-sugar-latte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/kopi-sore-brown-sugar-latte/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/portofolio/kopi-sore-brown-sugar-latte/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/portfolio/kopi-sore-brown-sugar-latte/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/portofolio/kopi-sore-brown-sugar-latte/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/portfolio/kopi-sore-brown-sugar-latte/"/>
+  </url>
+  <url><loc>https://www.goni.example/privacy-policy/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/kebijakan-privasi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/privacy-policy/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/kebijakan-privasi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/privacy-policy/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/kebijakan-privasi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/privacy-policy/"/>
+  </url>
+  <url><loc>https://www.goni.example/products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/produk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/"/>
+  </url>
+  <url><loc>https://www.goni.example/products/coffee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/coffee/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/kopi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/coffee/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/produk/kopi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/coffee/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/kopi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/coffee/"/>
+  </url>
+  <url><loc>https://www.goni.example/products/herbal-products/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/herbal-products/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/produk-herbal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/herbal-products/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/produk/produk-herbal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/herbal-products/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/produk-herbal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/herbal-products/"/>
+  </url>
+  <url><loc>https://www.goni.example/products/powdered-beverage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/powdered-beverage/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/minuman-serbuk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/powdered-beverage/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/produk/minuman-serbuk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/powdered-beverage/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/minuman-serbuk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/powdered-beverage/"/>
+  </url>
+  <url><loc>https://www.goni.example/products/seasoning-spices/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/seasoning-spices/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/bumbu-rempah/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/seasoning-spices/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/produk/bumbu-rempah/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/products/seasoning-spices/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/produk/bumbu-rempah/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/products/seasoning-spices/"/>
+  </url>
+  <url><loc>https://www.goni.example/services/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/layanan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/"/>
+  </url>
+  <url><loc>https://www.goni.example/services/contract-manufacturing/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/contract-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/jasa-maklon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/contract-manufacturing/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/layanan/jasa-maklon/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/contract-manufacturing/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/jasa-maklon/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/contract-manufacturing/"/>
+  </url>
+  <url><loc>https://www.goni.example/services/oem-odm/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/oem-odm/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/layanan/oem-odm/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/oem-odm/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/oem-odm/"/>
+  </url>
+  <url><loc>https://www.goni.example/services/packaging/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/packaging/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/kemasan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/packaging/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/layanan/kemasan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/packaging/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/kemasan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/packaging/"/>
+  </url>
+  <url><loc>https://www.goni.example/services/private-label/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/private-label/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/private-label/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/private-label/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/layanan/private-label/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/private-label/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/private-label/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/private-label/"/>
+  </url>
+  <url><loc>https://www.goni.example/services/product-development/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/product-development/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/pengembangan-produk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/product-development/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/layanan/pengembangan-produk/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/services/product-development/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/layanan/pengembangan-produk/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/services/product-development/"/>
+  </url>
+  <url><loc>https://www.goni.example/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/syarat-ketentuan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/terms/"/>
+  </url>
+  <url><loc>https://www.goni.example/id/syarat-ketentuan/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.goni.example/terms/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://www.goni.example/id/syarat-ketentuan/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.goni.example/terms/"/>
+  </url>
+</urlset>
