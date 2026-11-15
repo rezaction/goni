@@ -1,6 +1,6 @@
 /* Dashboard (Decap CMS) configuration. Edit REPO below once, to your GitHub "owner/repository". */
 (function () {
-  var REPO = 'YOUR-GITHUB-USER/gonest-website';   // <-- change this
+  var REPO = 'rezaction/goni';   // <-- change this
   var BRANCH = 'main';
 
   var str = function (name, label, extra) { return Object.assign({ name: name, label: label, widget: 'string' }, extra || {}); };
