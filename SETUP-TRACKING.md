@@ -10,10 +10,11 @@ The form posts to `functions/api/inquiry.js`, a Cloudflare Pages Function. It ch
 2. In Cloudflare Pages open your project > Settings > Variables and Secrets, and add:
    - `RESEND_API_KEY` (secret)
    - `INQUIRY_TO_EMAIL`: the sales inbox that should receive inquiries
-   - `INQUIRY_FROM_EMAIL`: for example `GONI Website <inquiry@yourdomain.com>` (must be on the verified domain)
+   - `INQUIRY_FROM_EMAIL`: for example `GoNEST Website <inquiry@yourdomain.com>` (must be on the verified domain)
    - `ALLOWED_ORIGIN` (optional): `https://www.yourdomain.com`
-3. Optional CRM or spreadsheet: set `INQUIRY_WEBHOOK_URL` to a webhook (Google Apps Script web app, Zapier, Make, or a CRM form endpoint). It receives a JSON body with name, whatsapp, category, volume, message, page, referrer, utm and receivedAt.
-4. Redeploy, then send a test inquiry from the Contact page.
+3. Every inquiry is also saved in the dashboard inbox once the database is connected (`SETUP-DASHBOARD.md`, step 4).
+4. Optional CRM or spreadsheet: set `INQUIRY_WEBHOOK_URL` to a webhook (Google Apps Script web app, Zapier, Make, or a CRM form endpoint). It receives a JSON body with name, whatsapp, category, volume, message, page, referrer, utm and receivedAt.
+5. Redeploy, then send a test inquiry from the Contact page.
 
 If delivery fails, the visitor sees a message with a button that opens WhatsApp with the same details, so no inquiry is lost.
 
@@ -22,7 +23,7 @@ Local test: copy `.dev.vars.example` to `.dev.vars`, then run `npx wrangler page
 ## 2. Google Analytics 4
 
 1. Create a GA4 property and a Web data stream. Copy the Measurement ID (`G-XXXXXXXXXX`).
-2. Put it in `public/assets/js/main.js` as `GA_ID`. Redeploy.
+2. Put it in the dashboard: Settings > Analytics > Google Analytics ID. Publish.
 3. A cookie banner then appears. Analytics load only after a visitor clicks Accept. "Cookie settings" appears in the footer so visitors can change their choice.
 
 Events the site sends (after consent):
@@ -42,14 +43,14 @@ Campaign links: add `?utm_source=...&utm_medium=...&utm_campaign=...` to links y
 1. Add your domain as a property in Search Console and verify it. For a domain on Cloudflare, the DNS TXT record method is easiest and needs no code change.
 2. In the sitemaps section, submit `https://yourdomain.com/sitemap.xml`.
 3. After a few days, open Pages and Performance to see which searches reach which pages.
-4. Replace `https://www.goni.example` with the real domain in all pages (English and `id/`), `sitemap.xml` and `robots.txt` first, so canonical links, hreflang tags and the sitemap are correct.
+4. Set the real domain in the dashboard (Settings > Website address) and publish first, so canonical links, hreflang tags and the sitemap are correct.
 5. In Performance, filter by page path (`/id/`) to see Indonesian-language traffic separately.
 
 The inquiry email also says whether the visitor used the English or the Indonesian site.
 
 ## 4. Visitor behavior (optional)
 
-Create a free Microsoft Clarity project and put its ID in `CLARITY_ID` in `main.js`. It loads only after consent and provides heatmaps and session recordings.
+Create a free Microsoft Clarity project and put its ID in the dashboard: Settings > Analytics > Microsoft Clarity ID. It loads only after consent and provides heatmaps and session recordings.
 
 ## 5. What to review monthly
 

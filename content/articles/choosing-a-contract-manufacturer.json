@@ -1,0 +1,110 @@
+{
+  "order": 8,
+  "slug_en": "choosing-a-contract-manufacturer",
+  "slug_id": "memilih-pabrik-maklon",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Business & Industry",
+    "read": "6 min read",
+    "title": "What to Look for Before Choosing a Contract Manufacturer",
+    "description": "A checklist for brand owners comparing contract manufacturers, from capability to communication.",
+    "related": [
+      {
+        "path": "/about/facilities/",
+        "label": "Facilities"
+      },
+      {
+        "path": "/about/certifications/",
+        "label": "Certifications"
+      },
+      {
+        "path": "/contact/",
+        "label": "Talk to GoNEST"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Capability",
+        "paragraphs": [
+          "Do they make your type of product regularly? Ask to see similar products and the machines used."
+        ]
+      },
+      {
+        "heading": "Documents",
+        "paragraphs": [
+          "Ask for licenses and certificates, check the numbers and expiry dates, and ask how the factory handles your product registration documents."
+        ]
+      },
+      {
+        "heading": "Quality system",
+        "paragraphs": [
+          "How are ingredients checked? How is each batch compared with the approved sample? Can they trace a batch?"
+        ]
+      },
+      {
+        "heading": "Terms",
+        "paragraphs": [
+          "Minimum order, sample rounds, lead time, payment terms, and who owns the formula. Get these in writing."
+        ]
+      },
+      {
+        "heading": "Communication",
+        "paragraphs": [
+          "A good partner answers questions clearly, gives realistic timelines and tells you early when something changes. Visit the factory if you can."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Bisnis & Industri",
+    "read": "6 menit baca",
+    "title": "Yang Perlu Diperhatikan Sebelum Memilih Pabrik Maklon",
+    "description": "Daftar periksa untuk pemilik brand yang membandingkan pabrik maklon, dari kemampuan sampai komunikasi.",
+    "related": [
+      {
+        "path": "/id/tentang-kami/fasilitas/",
+        "label": "Fasilitas"
+      },
+      {
+        "path": "/id/tentang-kami/sertifikasi/",
+        "label": "Sertifikasi"
+      },
+      {
+        "path": "/id/kontak/",
+        "label": "Hubungi GoNEST"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Kemampuan",
+        "paragraphs": [
+          "Apakah mereka rutin membuat jenis produk Anda? Minta melihat produk serupa dan mesin yang dipakai."
+        ]
+      },
+      {
+        "heading": "Dokumen",
+        "paragraphs": [
+          "Minta izin dan sertifikat, periksa nomor dan masa berlakunya, dan tanyakan bagaimana pabrik menangani dokumen pendaftaran produk Anda."
+        ]
+      },
+      {
+        "heading": "Sistem mutu",
+        "paragraphs": [
+          "Bagaimana bahan baku diperiksa? Bagaimana setiap batch dibandingkan dengan sampel yang disetujui? Apakah batch bisa ditelusuri?"
+        ]
+      },
+      {
+        "heading": "Ketentuan",
+        "paragraphs": [
+          "Pesanan minimum, putaran sampel, waktu produksi, ketentuan pembayaran, dan siapa pemilik formula. Pastikan semuanya tertulis."
+        ]
+      },
+      {
+        "heading": "Komunikasi",
+        "paragraphs": [
+          "Mitra yang baik menjawab pertanyaan dengan jelas, memberi jadwal yang realistis, dan memberi tahu lebih awal jika ada perubahan. Kunjungi pabriknya jika bisa."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "order": 2,
+  "slug_en": "oem-odm-private-label-white-label",
+  "slug_id": "perbedaan-oem-odm-private-label",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Maklon Guides",
+    "read": "5 min read",
+    "title": "OEM, ODM, Private Label and White Label Explained",
+    "description": "The four common cooperation models in contract manufacturing and how to choose between them.",
+    "related": [
+      {
+        "path": "/services/oem-odm/",
+        "label": "OEM and ODM"
+      },
+      {
+        "path": "/services/private-label/",
+        "label": "Private Label Manufacturing"
+      },
+      {
+        "path": "/services/product-development/",
+        "label": "Product Development"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why the terms matter",
+        "paragraphs": [
+          "These four terms describe who creates the product and who owns the result. Choosing the wrong model can mean paying for development you did not need, or finding out later that you do not own your formula."
+        ]
+      },
+      {
+        "heading": "OEM",
+        "paragraphs": [
+          "In OEM, you bring the formula and specification. The factory produces it to your design. You own the formula."
+        ]
+      },
+      {
+        "heading": "ODM",
+        "paragraphs": [
+          "In ODM, the factory develops the product for you, then produces it for your brand. Ownership of the formula is agreed in writing and can be exclusive or shared."
+        ]
+      },
+      {
+        "heading": "Private label and white label",
+        "paragraphs": [
+          "Private label means choosing a base formula the factory already has and packing it under your brand, often with a flavor or packaging adjustment. White label is similar but usually with no changes at all.",
+          "Both are faster and need a lower minimum order, because no new development is paid for."
+        ]
+      },
+      {
+        "heading": "How to choose",
+        "paragraphs": [
+          "Have your own formula: OEM.",
+          "Have an idea but no formula: ODM.",
+          "Want to launch fast and test the market: private label.",
+          "Ask each partner to put the ownership terms in writing."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Panduan Maklon",
+    "read": "5 menit baca",
+    "title": "OEM, ODM, Private Label, dan White Label: Apa Bedanya?",
+    "description": "Empat model kerja sama yang umum dalam jasa maklon dan cara memilih di antaranya.",
+    "related": [
+      {
+        "path": "/id/layanan/oem-odm/",
+        "label": "OEM dan ODM"
+      },
+      {
+        "path": "/id/layanan/private-label/",
+        "label": "Private Label"
+      },
+      {
+        "path": "/id/layanan/pengembangan-produk/",
+        "label": "Pengembangan Produk"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Mengapa istilahnya penting",
+        "paragraphs": [
+          "Keempat istilah ini menjelaskan siapa yang menciptakan produk dan siapa yang memiliki hasilnya. Salah memilih model bisa berarti membayar pengembangan yang tidak Anda perlukan, atau baru tahu belakangan bahwa Anda tidak memiliki formula Anda sendiri."
+        ]
+      },
+      {
+        "heading": "OEM",
+        "paragraphs": [
+          "Pada OEM, Anda membawa formula dan spesifikasi. Pabrik memproduksinya sesuai rancangan Anda. Formula menjadi milik Anda."
+        ]
+      },
+      {
+        "heading": "ODM",
+        "paragraphs": [
+          "Pada ODM, pabrik mengembangkan produk untuk Anda, lalu memproduksinya untuk brand Anda. Kepemilikan formula disepakati secara tertulis dan bisa eksklusif atau dibagi."
+        ]
+      },
+      {
+        "heading": "Private label dan white label",
+        "paragraphs": [
+          "Private label berarti memilih formula dasar yang sudah dimiliki pabrik dan mengemasnya dengan merek Anda, sering dengan penyesuaian rasa atau kemasan. White label serupa, tetapi biasanya tanpa perubahan apa pun.",
+          "Keduanya lebih cepat dan membutuhkan pesanan minimum lebih rendah, karena tidak ada biaya pengembangan baru."
+        ]
+      },
+      {
+        "heading": "Cara memilih",
+        "paragraphs": [
+          "Sudah punya formula sendiri: OEM.",
+          "Punya ide tetapi belum punya formula: ODM.",
+          "Ingin cepat meluncur dan menguji pasar: private label.",
+          "Minta setiap mitra menuliskan ketentuan kepemilikan secara tertulis."
+        ]
+      }
+    ]
+  }
+}

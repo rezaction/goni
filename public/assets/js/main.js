@@ -1,10 +1,14 @@
-/* GONI static website: settings, consent, analytics, tracking and the inquiry form. No dependencies. */
+/* GoNEST static website: settings, consent, analytics, tracking and the inquiry form. No dependencies. */
 
-// ---------- Settings: replace before launch ----------
-var WHATSAPP_NUMBER = '6281200000000';  // international format, no plus sign
-var DEMO_MODE = true;                   // false removes the sample-data banner
-var GA_ID = '';                         // GA4 measurement ID, for example 'G-XXXXXXXXXX'. Empty = analytics off
-var CLARITY_ID = '';                    // optional Microsoft Clarity project ID for heatmaps. Empty = off
+// ---------- Settings ----------
+// WhatsApp number, analytics IDs and the demo tape come from content/settings.json (edited in the dashboard).
+// The build writes them to /assets/js/config.js. The values below are only fallbacks.
+var CFG = window.SITE_CONFIG || {};
+var WHATSAPP_NUMBER = CFG.whatsapp || '6281200000000';   // international format, no plus sign
+var DEMO_MODE = CFG.demoMode !== undefined ? !!CFG.demoMode : true;  // false removes the demo tape above the header and below the footer
+var DEMO_TAPE_TEXT = CFG.demoTapeText || 'DESIGN DEMO BY GOLDEN NESTLING \u2022  ALL CONTENT FOR PRESENTATION PURPOSES ONLY.';
+var GA_ID = CFG.gaId || '';             // GA4 measurement ID. Empty = analytics off
+var CLARITY_ID = CFG.clarityId || '';   // optional Microsoft Clarity project ID. Empty = off
 var INQUIRY_ENDPOINT = '/api/inquiry';  // Cloudflare Pages Function in functions/api/inquiry.js
 
 (function () {
@@ -14,24 +18,22 @@ var INQUIRY_ENDPOINT = '/api/inquiry';  // Cloudflare Pages Function in function
   var LANG = document.documentElement.lang === 'id' ? 'id' : 'en';
   var TXT = {
     en: {
-      demo: 'Proposal mockup. Prices, volumes, names and statistics are sample data and will be replaced with real company data.',
       consent: 'We use analytics cookies to understand which pages are useful. Nothing is collected unless you accept.',
       privacy: 'Privacy Policy', privacyHref: '/privacy-policy/', accept: 'Accept', decline: 'Decline', consentLabel: 'Cookie preferences',
       send: 'Send Inquiry', sending: 'Sending...',
       ok: 'Thank you. Your inquiry has been sent and our team will reply within one business day.',
       fail: 'The form could not be sent right now. Please send the same details by WhatsApp: ', openWa: 'Open WhatsApp',
-      waIntro: 'Hello GONI, I would like to discuss a product project.', name: 'Name', wa: 'WhatsApp', cat: 'Category',
+      waIntro: 'Hello GoNEST, I would like to discuss a product project.', name: 'Name', wa: 'WhatsApp', cat: 'Category',
       vol: 'Estimated first order', idea: 'Product idea',
       cta: '/contact/'
     },
     id: {
-      demo: 'Contoh untuk proposal. Harga, volume, nama, dan statistik adalah data contoh dan akan diganti dengan data asli perusahaan.',
       consent: 'Kami memakai cookie analitik untuk memahami halaman mana yang bermanfaat. Tidak ada data yang dikumpulkan kecuali Anda menyetujui.',
       privacy: 'Kebijakan Privasi', privacyHref: '/id/kebijakan-privasi/', accept: 'Setuju', decline: 'Tolak', consentLabel: 'Preferensi cookie',
       send: 'Kirim Permintaan', sending: 'Mengirim...',
       ok: 'Terima kasih. Permintaan Anda sudah terkirim dan tim kami akan membalas dalam satu hari kerja.',
       fail: 'Formulir belum bisa dikirim saat ini. Silakan kirim data yang sama lewat WhatsApp: ', openWa: 'Buka WhatsApp',
-      waIntro: 'Halo GONI, saya ingin berdiskusi tentang proyek produk.', name: 'Nama', wa: 'WhatsApp', cat: 'Kategori',
+      waIntro: 'Halo GoNEST, saya ingin berdiskusi tentang proyek produk.', name: 'Nama', wa: 'WhatsApp', cat: 'Kategori',
       vol: 'Perkiraan pesanan pertama', idea: 'Ide produk',
       cta: '/id/kontak/'
     }
@@ -56,12 +58,24 @@ var INQUIRY_ENDPOINT = '/api/inquiry';  // Cloudflare Pages Function in function
     return 'https://wa.me/' + WHATSAPP_NUMBER + '?text=' + encodeURIComponent(text);
   }
 
-  // ---------- Demo banner ----------
+  // ---------- Demo marquee: thin running strip above the header and below the footer ----------
   if (DEMO_MODE) {
-    var banner = document.createElement('div');
-    banner.className = 'demo-banner';
-    banner.textContent = TXT.demo;
-    document.body.insertBefore(banner, document.body.firstChild);
+    var tapeText = DEMO_TAPE_TEXT;
+    var makeTape = function () {
+      var group = function () {
+        var g = '<span class="tape-group">';
+        for (var n = 0; n < 5; n++) g += '<span class="tape-item">' + tapeText + '</span>';
+        return g + '</span>';
+      };
+      var tape = document.createElement('div');
+      tape.className = 'tape';
+      tape.setAttribute('role', 'note');
+      tape.setAttribute('aria-label', tapeText.replace(/\s+/g, ' '));
+      tape.innerHTML = '<div class="tape-track" aria-hidden="true">' + group() + group() + '</div>';
+      return tape;
+    };
+    document.body.insertBefore(makeTape(), document.body.firstChild);
+    document.body.appendChild(makeTape());
   }
 
   // ---------- Mobile navigation ----------

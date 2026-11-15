@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Inquiry inbox | GoNEST</title>
+<style>
+  :root{--primary:#123B67;--secondary:#245B91;--accent:#F2C94C;--bg:#F5F7FA;--surface:#fff;--text:#263445;--line:#D9E0E8;--muted:#5B6B7D}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif}
+  header{background:var(--primary);color:#fff;padding:14px max(16px,env(safe-area-inset-left,0px));display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+  header h1{font-size:18px;margin:0;flex:1}
+  header a{color:#fff;font-size:14px}
+  main{max-width:960px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-left,0px))}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+  .chip{border:1px solid var(--line);background:var(--surface);color:var(--text);border-radius:999px;padding:6px 12px;font:inherit;font-size:14px;cursor:pointer}
+  .chip[aria-pressed=true]{background:var(--primary);border-color:var(--primary);color:#fff}
+  input[type=search]{flex:1;min-width:180px;border:1px solid var(--line);border-radius:8px;padding:8px 12px;font:inherit}
+  .item{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;margin-bottom:12px}
+  .item.new{border-left:5px solid var(--accent)}
+  .top{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}
+  .name{font-weight:700;font-size:17px}
+  .meta{color:var(--muted);font-size:13px;overflow-wrap:anywhere}
+  .msg{white-space:pre-wrap;margin:10px 0;overflow-wrap:anywhere}
+  .row{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+  select,textarea,button.btn,a.btn{font:inherit;font-size:14px;border:1px solid var(--line);border-radius:8px;padding:7px 10px;background:#fff;color:var(--text)}
+  textarea{width:100%;margin-top:8px;min-height:60px}
+  button.btn,a.btn{cursor:pointer;text-decoration:none;display:inline-block}
+  .primary{background:var(--primary);color:#fff;border-color:var(--primary)}
+  .danger{color:#9B1C1C}
+  #state{color:var(--muted);padding:24px 0;text-align:center}
+</style>
+</head>
+<body>
+<header><h1>Inquiry inbox</h1><a href="/admin/">Content dashboard</a><a href="/api/admin/inquiries?format=csv">Export CSV</a></header>
+<main>
+  <div class="bar" id="filters" role="group" aria-label="Filter by status"></div>
+  <div class="bar"><input type="search" id="q" placeholder="Search name, number, message" aria-label="Search"></div>
+  <div id="list"></div>
+  <p id="state">Loading...</p>
+  <div class="row" style="justify-content:center"><button class="btn" id="more" hidden>Load more</button></div>
+</main>
+<script>
+(function () {
+  var STATUS = ['new', 'contacted', 'quoted', 'won', 'lost', 'spam'];
+  var state = { status: '', q: '', next: null, counts: {} };
+  var $ = function (id) { return document.getElementById(id); };
+  // Visitor-supplied text is only ever put in with textContent, never as HTML.
+  var el = function (tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+
+  function api(method, url, body) {
+    return fetch(url, { method: method, headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined, credentials: 'same-origin' })
+      .then(function (r) { return r.json().catch(function () { return { ok: false, error: 'bad_response' }; }).then(function (j) { j.httpStatus = r.status; return j; }); });
+  }
+
+  function drawFilters() {
+    var box = $('filters'); box.textContent = '';
+    var total = Object.keys(state.counts).reduce(function (a, k) { return a + state.counts[k]; }, 0);
+    [['', 'All (' + total + ')']].concat(STATUS.map(function (s) { return [s, s + ' (' + (state.counts[s] || 0) + ')']; })).forEach(function (p) {
+      var b = el('button', 'chip', p[1]); b.type = 'button'; b.setAttribute('aria-pressed', state.status === p[0] ? 'true' : 'false');
+      b.onclick = function () { state.status = p[0]; load(true); }; box.appendChild(b);
+    });
+  }
+
+  function waLink(num) {
+    var d = String(num).replace(/\D/g, ''); if (d.charAt(0) === '0') d = '62' + d.slice(1);
+    return 'https://wa.me/' + d;
+  }
+
+  function card(it) {
+    var c = el('article', 'item' + (it.status === 'new' ? ' new' : ''));
+    var top = el('div', 'top');
+    top.appendChild(el('div', 'name', it.name));
+    top.appendChild(el('div', 'meta', new Date(it.created_at).toLocaleString() + ' · ' + (it.lang === 'id' ? 'Indonesian site' : 'English site')));
+    c.appendChild(top);
+    c.appendChild(el('div', 'meta', [it.whatsapp, it.category, it.volume].filter(Boolean).join(' · ')));
+    if (it.message) c.appendChild(el('div', 'msg', it.message));
+    var src = [it.page && ('page ' + it.page), it.referrer && ('from ' + it.referrer)].concat(Object.keys(it.utm || {}).map(function (k) { return k + '=' + it.utm[k]; })).filter(Boolean).join(' · ');
+    if (src) c.appendChild(el('div', 'meta', src));
+    var note = el('textarea'); note.value = it.note || ''; note.placeholder = 'Internal note'; note.setAttribute('aria-label', 'Internal note');
+    c.appendChild(note);
+    var row = el('div', 'row'); row.style.marginTop = '8px';
+    var sel = el('select'); sel.setAttribute('aria-label', 'Status');
+    STATUS.forEach(function (s) { var o = el('option', null, s); o.value = s; if (s === it.status) o.selected = true; sel.appendChild(o); });
+    var save = el('button', 'btn primary', 'Save'); save.type = 'button';
+    var msg = el('span', 'meta');
+    save.onclick = function () {
+      save.disabled = true; msg.textContent = 'Saving...';
+      api('PATCH', '/api/admin/inquiries', { id: it.id, status: sel.value, note: note.value }).then(function (r) {
+        save.disabled = false; msg.textContent = r.ok ? 'Saved' : 'Could not save (' + (r.error || r.httpStatus) + ')';
+        if (r.ok) { it.status = sel.value; c.className = 'item' + (it.status === 'new' ? ' new' : ''); refreshCounts(); }
+      });
+    };
+    var wa = el('a', 'btn', 'Reply on WhatsApp'); wa.href = waLink(it.whatsapp); wa.target = '_blank'; wa.rel = 'noopener';
+    var del = el('button', 'btn danger', 'Delete'); del.type = 'button';
+    del.onclick = function () {
+      if (del.dataset.sure !== '1') { del.dataset.sure = '1'; del.textContent = 'Click again to delete'; setTimeout(function () { del.dataset.sure = ''; del.textContent = 'Delete'; }, 4000); return; }
+      api('DELETE', '/api/admin/inquiries?id=' + it.id).then(function (r) { if (r.ok) { c.remove(); refreshCounts(); } else msg.textContent = 'Could not delete'; });
+    };
+    [sel, save, wa, del, msg].forEach(function (x) { row.appendChild(x); });
+    c.appendChild(row);
+    return c;
+  }
+
+  function refreshCounts() { api('GET', '/api/admin/inquiries?limit=1').then(function (r) { if (r.ok) { state.counts = r.counts; drawFilters(); } }); }
+
+  function load(reset) {
+    if (reset) { $('list').textContent = ''; state.next = null; }
+    $('state').textContent = 'Loading...'; $('more').hidden = true;
+    var url = '/api/admin/inquiries?limit=30' + (state.status ? '&status=' + state.status : '') + (state.q ? '&q=' + encodeURIComponent(state.q) : '') + (state.next ? '&before=' + state.next : '');
+    api('GET', url).then(function (r) {
+      if (!r.ok) {
+        $('state').textContent = r.error === 'database_not_configured' ? 'The inquiry database is not connected yet. See the setup guide (D1 binding named DB).'
+          : (r.httpStatus === 403 || r.httpStatus === 503) ? 'Access denied (' + (r.error || r.httpStatus) + '). Sign in through Cloudflare Access.' : 'Could not load inquiries.';
+        return;
+      }
+      state.counts = r.counts; state.next = r.next; drawFilters();
+      r.items.forEach(function (it) { $('list').appendChild(card(it)); });
+      $('state').textContent = $('list').children.length ? '' : 'No inquiries yet.';
+      $('more').hidden = !r.next;
+    }).catch(function () { $('state').textContent = 'Could not load inquiries.'; });
+  }
+
+  var t; $('q').addEventListener('input', function () { clearTimeout(t); t = setTimeout(function () { state.q = $('q').value.trim(); load(true); }, 300); });
+  $('more').onclick = function () { load(false); };
+  load(true);
+})();
+</script>
+</body>
+</html>

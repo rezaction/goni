@@ -1,0 +1,32 @@
+{
+  "slug": "jahe-merah-warung-sehat",
+  "category": "herbal-products",
+  "photo": "herbal drink boxes",
+  "date": "2026-11-10",
+  "en": {
+    "name": "Jahe Merah Warung Sehat",
+    "client": "Warung Sehat",
+    "note": "Instant red ginger drink, 20 g sachet in a box of 10.",
+    "fmt": "Sachet, 20 g, box of 10",
+    "batch": "1,000 kg",
+    "time": "8 weeks",
+    "need": "A wellness retailer wanted a red ginger drink that is warming but not too sharp, with less sugar than the market leader.",
+    "concept": "A low-sugar instant red ginger drink aimed at office workers and families.",
+    "challenge": "Lowering sugar made the ginger taste harsh.",
+    "solution": "We balanced the ginger extract with palm sugar notes and tested four versions with a panel of tasters.",
+    "result": "The retailer approved version three, and the product moved to a repeat order."
+  },
+  "id": {
+    "name": "Jahe Merah Warung Sehat",
+    "client": "Warung Sehat",
+    "note": "Minuman instan jahe merah, sachet 20 g dalam boks isi 10.",
+    "fmt": "Sachet 20 g, boks isi 10",
+    "batch": "1.000 kg",
+    "time": "8 minggu",
+    "need": "Sebuah peritel kesehatan menginginkan minuman jahe merah yang menghangatkan tetapi tidak terlalu tajam, dengan gula lebih rendah dari pemimpin pasar.",
+    "concept": "Minuman instan jahe merah rendah gula untuk pekerja kantoran dan keluarga.",
+    "challenge": "Mengurangi gula membuat rasa jahe terasa keras.",
+    "solution": "Kami menyeimbangkan ekstrak jahe dengan nuansa gula aren dan menguji empat versi bersama panel penguji rasa.",
+    "result": "Peritel menyetujui versi ketiga, dan produk lanjut ke pesanan ulang."
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "red-ginger-instant-drink",
+  "order": 5,
+  "category": "herbal-products",
+  "en": {
+    "name": "Red Ginger Instant Drink",
+    "format": "Sachet 20 g",
+    "moq": "500 kg",
+    "price": "from Rp 2.400 / sachet",
+    "lead_time": "21 to 28 days"
+  },
+  "id": {
+    "name": "Minuman Instan Jahe Merah",
+    "format": "Sachet 20 g",
+    "moq": "500 kg",
+    "price": "mulai Rp 2.400 / sachet",
+    "lead_time": "21 sampai 28 hari"
+  }
+}

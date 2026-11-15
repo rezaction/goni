@@ -1,0 +1,150 @@
+{
+  "order": 1,
+  "slug_en": "powdered-beverage",
+  "slug_id": "minuman-serbuk",
+  "photo": "powder blending",
+  "en": {
+    "name": "Powdered Beverage",
+    "short": "Powdered drinks",
+    "desc": "Premixes, creamers and instant drink powders in sachet, pouch or jar.",
+    "moq": "1,000 kg",
+    "formats": "Sachet, pouch, jar",
+    "hero": "Powdered Beverage Contract Manufacturing",
+    "lead": "Develop and produce instant drink powders under your own brand, from a first sample to a full production batch.",
+    "intro": [
+      "GoNEST blends and packs instant drink powders for brand owners who want a consistent product without owning a factory. We handle formula development, ingredient sourcing, dry blending, filling and sealing.",
+      "Typical clients launch a first flavor, test the market, then add variants. The same base formula can be adapted into several flavors to keep your minimum order manageable."
+    ],
+    "types": [
+      "Matcha, chocolate and brown sugar latte premixes",
+      "Milk tea and creamer powders",
+      "Fruit-flavored instant drinks",
+      "Malt and cereal drinks",
+      "Functional drinks with added vitamins or collagen"
+    ],
+    "formula": [
+      "Sugar, non-dairy creamer and milk powder bases",
+      "Natural and nature-identical flavor options",
+      "Reduced-sugar and sugar-free formulas using approved sweeteners",
+      "Plant-based creamer options"
+    ],
+    "pack": [
+      "Sachet, 12 to 30 g net",
+      "Stand-up pouch, 200 to 500 g net",
+      "Jar, 250 to 500 g net",
+      "Display box of 10 or 20 sachets"
+    ],
+    "specs": [
+      {
+        "label": "Minimum order",
+        "value": "1,000 kg per formula"
+      },
+      {
+        "label": "Sample ready",
+        "value": "7 to 10 working days"
+      },
+      {
+        "label": "Production lead time",
+        "value": "25 to 30 days after approval"
+      },
+      {
+        "label": "Shelf life",
+        "value": "12 to 18 months, depending on formula"
+      },
+      {
+        "label": "Indicative price",
+        "value": "from Rp 2.900 per 25 g sachet"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "What is the minimum order for powdered drinks?",
+        "a": "The sample figure is 1,000 kg per formula. Several flavors on the same base can share one production run, which helps smaller brands."
+      },
+      {
+        "q": "Can you copy a drink I already like?",
+        "a": "We can develop a formula to match a reference taste and texture. The result is a new formula owned by your project, not a copy of another brand."
+      },
+      {
+        "q": "How long does sampling take?",
+        "a": "The first sample usually takes 7 to 10 working days. Each revision round takes about 5 working days."
+      },
+      {
+        "q": "Do you help with packaging design?",
+        "a": "We advise on pouch or sachet size, material and label requirements. Artwork is prepared by your designer or ours."
+      }
+    ]
+  },
+  "id": {
+    "name": "Minuman Serbuk",
+    "short": "Minuman Serbuk",
+    "desc": "Premix, krimer, dan minuman instan serbuk dalam kemasan sachet, pouch, atau jar.",
+    "moq": "1.000 kg",
+    "formats": "Sachet, pouch, jar",
+    "hero": "Jasa Maklon Minuman Serbuk",
+    "lead": "Kembangkan dan produksi minuman instan serbuk dengan merek Anda sendiri, dari sampel pertama sampai batch produksi penuh.",
+    "intro": [
+      "GoNEST mencampur dan mengemas minuman instan serbuk untuk pemilik brand yang menginginkan produk konsisten tanpa harus memiliki pabrik. Kami menangani pengembangan formula, pengadaan bahan baku, pencampuran kering, pengisian, dan penyegelan.",
+      "Klien biasanya meluncurkan satu rasa lebih dulu, menguji pasar, lalu menambah varian. Satu formula dasar bisa dikembangkan menjadi beberapa rasa agar jumlah pesanan minimum tetap terjangkau."
+    ],
+    "types": [
+      "Premix latte matcha, cokelat, dan brown sugar",
+      "Serbuk teh susu dan krimer",
+      "Minuman instan rasa buah",
+      "Minuman malt dan sereal",
+      "Minuman fungsional dengan tambahan vitamin atau kolagen"
+    ],
+    "formula": [
+      "Basis gula, krimer nabati, dan susu bubuk",
+      "Pilihan perisa alami dan identik alami",
+      "Formula rendah gula dan bebas gula dengan pemanis yang diizinkan",
+      "Pilihan krimer berbahan nabati"
+    ],
+    "pack": [
+      "Sachet, 12 sampai 30 g neto",
+      "Stand-up pouch, 200 sampai 500 g neto",
+      "Jar, 250 sampai 500 g neto",
+      "Boks display isi 10 atau 20 sachet"
+    ],
+    "specs": [
+      {
+        "label": "Pesanan minimum",
+        "value": "1.000 kg per formula"
+      },
+      {
+        "label": "Sampel siap",
+        "value": "7 sampai 10 hari kerja"
+      },
+      {
+        "label": "Waktu produksi",
+        "value": "25 sampai 30 hari setelah persetujuan"
+      },
+      {
+        "label": "Masa simpan",
+        "value": "12 sampai 18 bulan, tergantung formula"
+      },
+      {
+        "label": "Harga indikatif",
+        "value": "mulai Rp 2.900 per sachet 25 g"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Berapa pesanan minimum untuk minuman serbuk?",
+        "a": "Angka contohnya 1.000 kg per formula. Beberapa rasa dengan basis yang sama bisa digabung dalam satu proses produksi, sehingga membantu brand yang baru mulai."
+      },
+      {
+        "q": "Bisakah kalian meniru minuman yang sudah saya sukai?",
+        "a": "Kami dapat mengembangkan formula yang mendekati rasa dan tekstur acuan Anda. Hasilnya adalah formula baru untuk proyek Anda, bukan salinan merek lain."
+      },
+      {
+        "q": "Berapa lama proses sampel?",
+        "a": "Sampel pertama biasanya siap dalam 7 sampai 10 hari kerja. Setiap putaran revisi memakan waktu sekitar 5 hari kerja."
+      },
+      {
+        "q": "Apakah kalian membantu desain kemasan?",
+        "a": "Kami memberi saran ukuran sachet atau pouch, bahan, dan kebutuhan label. Desain grafis dikerjakan oleh desainer Anda atau desainer kami."
+      }
+    ]
+  }
+}

@@ -2,6 +2,14 @@
 # Never commit .dev.vars. In production set these in Cloudflare Pages > Settings > Variables and Secrets.
 RESEND_API_KEY=re_xxxxxxxxxxxxxxxx
 INQUIRY_TO_EMAIL=sales@yourdomain.com
-INQUIRY_FROM_EMAIL=GONI Website <inquiry@yourdomain.com>
+INQUIRY_FROM_EMAIL=GoNEST Website <inquiry@yourdomain.com>
 # INQUIRY_WEBHOOK_URL=https://script.google.com/macros/s/xxxx/exec
 # ALLOWED_ORIGIN=https://www.yourdomain.com
+
+# Dashboard (only needed when you run `npx wrangler pages dev`)
+ACCESS_TEAM_DOMAIN=yourteam.cloudflareaccess.com
+ACCESS_AUD=paste-the-application-aud-tag
+GITHUB_CLIENT_ID=
+GITHUB_CLIENT_SECRET=
+# Local testing only. NEVER set this in Cloudflare: it switches the login check off.
+# ALLOW_INSECURE_ADMIN=1

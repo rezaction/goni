@@ -1,78 +1,47 @@
-# GONI website
+# GoNEST website
 
-Static website (HTML, CSS, JavaScript) with one small serverless function for the inquiry form. Two languages: English at the root and Indonesian under `/id/`, 35 pages each. No build step for the site itself.
+A bilingual website (English at `/`, Indonesian at `/id/`, 35 pages each) managed from a dashboard. Plain HTML, CSS and JavaScript on the visitor's side, with a small Cloudflare Pages Function for the contact form, the login check and the inquiry inbox.
 
-## Folders
+## How it fits together
 
-    public/                 The website. This folder is what gets published.
-    functions/api/inquiry.js  Cloudflare Pages Function that receives the contact form
-    wrangler.toml           Cloudflare settings (output folder = public)
-    PHOTOS.md               List of photo slots and the file names to use
-    SETUP-TRACKING.md       Step-by-step setup for email, GA4 and Search Console
-    .dev.vars.example       Example environment variables for local testing
+    content/        All editable content as JSON (what the dashboard edits)
+    uploads/        Original photos uploaded from the dashboard
+    scripts/        build.py (pages), images.mjs (photos to WebP), content.py, build_en.py, build_id.py
+    public/         The built website. Cloudflare publishes this folder.
+    public/admin/   Dashboard (Decap CMS) and the inquiry inbox
+    functions/      Form endpoint, inbox API, Cloudflare Access check, GitHub login hand-off
+    migrations/     Database table for the inbox
+    tests/          Automated tests: npm test
+    brand/          Original logo file
 
-Inside `public/`:
+Flow: an editor saves in the dashboard, which commits to GitHub. Cloudflare runs `npm install && npm run build`, which converts photos and rebuilds all pages from `content/`, then publishes `public/`.
 
-    English (root)                   Indonesian (/id/)
-    index.html                       id/                                 Home
-    about/                           id/tentang-kami/                    About, plus 4 sub-pages
-    services/                        id/layanan/                         Services, plus 5 sub-pages
-    how-it-works/                    id/cara-kerja/                      Process, minimum order, FAQ
-    products/                        id/produk/                          Categories, plus 4 category pages
-    portfolio/                       id/portofolio/                      Project list and 4 sample projects
-    insights/                        id/wawasan/                         Knowledge center and 8 sample articles
-    contact/                         id/kontak/                          Inquiry form
-    privacy-policy/, terms/          id/kebijakan-privasi/, id/syarat-ketentuan/   Legal templates
+## Set up
 
-    assets/css/style.css             Colors and fonts are tokens at the top
-    assets/js/main.js                Settings (WhatsApp number, GA ID), consent, tracking, form. Texts for both languages are at the top.
-    assets/img/photos/               Photos, shared by both languages
-    sitemap.xml                      Lists both languages with hreflang pairs
-    robots.txt, 404.html, _headers
+Follow `SETUP-DASHBOARD.md` (login, GitHub, database). Then `SETUP-TRACKING.md` (email delivery, Google Analytics, Search Console). Photos: `SETUP-DASHBOARD.md`, "How photos work".
 
-Every English page has an Indonesian counterpart. The EN | ID switch in the header links each page to its pair, and each page carries `hreflang` tags so Google shows the right language.
+## Local preview
 
-## Put it online as a demo (fastest)
-
-1. Cloudflare dashboard > Workers & Pages > Create > Pages > Upload assets.
-2. Name the project (for example `goni-demo`) and drag the whole `public` folder in. Deploy. You get a free `goni-demo.pages.dev` address.
-3. Before sharing it, open `public/assets/js/main.js` and set `WHATSAPP_NUMBER` to your own number (format `62812xxxxxxx`). Until you do, the WhatsApp buttons open a chat with a placeholder number.
-4. The demo is set to stay out of Google (`noindex` in `public/_headers`, `Disallow: /` in `public/robots.txt`). For the real launch, delete the `X-Robots-Tag` line in `_headers` and restore robots.txt to: `User-agent: *`, `Allow: /`, and `Sitemap: https://yourdomain/sitemap.xml`.
-5. The inquiry form works fully only with the Git deployment and the environment variables in `SETUP-TRACKING.md`. With a plain upload, the form shows its WhatsApp fallback, which is fine for a demo.
-
-## Preview locally
-
-Links start with `/`, so use a local server, not a double-click:
-
+    npm install
+    npm run build
     python3 -m http.server 8080 --directory public
 
-Then open http://localhost:8080. The form will show its WhatsApp fallback here, because the function only runs on Cloudflare (or with `npx wrangler pages dev`).
+Open http://localhost:8080. The form shows its WhatsApp fallback locally, because Functions only run on Cloudflare (or with `npx wrangler pages dev`).
 
-## Deploy to Cloudflare Pages
+## Demo mode
 
-1. Push this folder to a GitHub repository.
-2. Cloudflare Pages > Create project > Connect to Git.
-3. Framework preset: None. Build command: leave empty. Build output directory: `public`.
-4. Add the custom domain.
-5. Follow `SETUP-TRACKING.md` to turn on the form email, analytics and Search Console.
+While `Settings > Demo mode` is ticked in the dashboard, the site shows the yellow marquee above the header and below the footer ("DESIGN DEMO BY GOLDEN NESTLING ...") and tells Google not to index it (`noindex` header and `Disallow: /`). Untick it to launch.
 
-## Replace before launch
+## Replace before launch (in the dashboard unless noted)
 
-- `public/assets/js/main.js`: `WHATSAPP_NUMBER`, `GA_ID`, and set `DEMO_MODE = false` to remove the sample-data banner.
-- Domain: replace `https://www.goni.example` in all `.html` files, `sitemap.xml` and `robots.txt`.
-- Sample data: prices, minimum orders, statistics, client names, testimonials, projects and machine lists are examples.
-- Certification badges and tables (BPOM, Halal, HACCP, ISO 22000) are placeholders. Show only certificates the company holds.
-- Photos: add JPG files named as in `PHOTOS.md` to `public/assets/img/photos/`. No code change is needed.
-- Contact details (phone, email, address) on both Contact pages (`contact/` and `id/kontak/`) and in the footers.
-- Indonesian text was written for this proposal. Have a native reader on the team review wording, especially the legal templates.
-- Insights articles are sample drafts. Have the team review them.
-- `privacy-policy/` and `terms/` are templates. Have a legal adviser review them and fill the `[brackets]`.
+- Settings: domain, WhatsApp number, email, address, office hours, home page numbers, analytics IDs, demo mode.
+- Products and prices, portfolio projects, testimonials and articles are sample data. Replace or delete them. Publish only projects and testimonials the brand owner has approved.
+- Photos: upload real photos for each slot.
+- In code (`scripts/build_en.py`, `scripts/build_id.py`): About, Services, How It Works text; certification badges and tables (BPOM, Halal, HACCP, ISO 22000) are placeholders, show only certificates the company holds; `[brackets]` in the legal templates (have a legal adviser review them).
+- Have a native reader review the Indonesian text.
 
-## Editing the site
+## Tests
 
-The pages were generated from content files, so the zip holds finished HTML. To change text, edit the `.html` files directly (search for the words). Sample numbers appear in several pages, so search for a value such as `1.000 kg` or `1,000 kg` to find every place.
+    npm test
 
-## Still to do (optional)
-
-- Real photos, real company data, and client-approved portfolio projects.
-- More articles in both languages, and a CMS if the team will publish often.
+Covers the form function, the Access token check (forged, expired, wrong audience, missing configuration), the inbox API, the GitHub login hand-off, and that the dashboard form matches every field in `content/`.

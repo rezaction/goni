@@ -1,0 +1,19 @@
+{
+  "slug": "3-in-1-instant-coffee",
+  "order": 2,
+  "category": "coffee",
+  "en": {
+    "name": "3-in-1 Instant Coffee",
+    "format": "Sachet 20 g",
+    "moq": "1,000 kg",
+    "price": "from Rp 1.850 / sachet",
+    "lead_time": "25 to 30 days"
+  },
+  "id": {
+    "name": "Kopi Instan 3-in-1",
+    "format": "Sachet 20 g",
+    "moq": "1.000 kg",
+    "price": "mulai Rp 1.850 / sachet",
+    "lead_time": "25 sampai 30 hari"
+  }
+}

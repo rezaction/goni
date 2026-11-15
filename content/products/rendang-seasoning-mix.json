@@ -1,0 +1,19 @@
+{
+  "slug": "rendang-seasoning-mix",
+  "order": 4,
+  "category": "seasoning-spices",
+  "en": {
+    "name": "Rendang Seasoning Mix",
+    "format": "Pouch 100 g",
+    "moq": "500 kg",
+    "price": "from Rp 6.500 / pouch",
+    "lead_time": "21 to 28 days"
+  },
+  "id": {
+    "name": "Bumbu Rendang",
+    "format": "Pouch 100 g",
+    "moq": "500 kg",
+    "price": "mulai Rp 6.500 / pouch",
+    "lead_time": "21 sampai 28 hari"
+  }
+}

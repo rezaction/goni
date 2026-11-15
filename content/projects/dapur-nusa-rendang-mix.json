@@ -1,0 +1,32 @@
+{
+  "slug": "dapur-nusa-rendang-mix",
+  "category": "seasoning-spices",
+  "photo": "seasoning pouches",
+  "date": "2026-11-10",
+  "en": {
+    "name": "Dapur Nusa Rendang Mix",
+    "client": "Dapur Nusa",
+    "note": "100 g stand-up pouch with a tear notch.",
+    "fmt": "Stand-up pouch, 100 g",
+    "batch": "800 kg",
+    "time": "6 weeks",
+    "need": "A home-cooking brand wanted a ready-to-cook rendang seasoning with a rich, dark color and a mild heat level.",
+    "concept": "One pouch seasons one kilogram of meat, with a short cooking guide printed on the back.",
+    "challenge": "Ground spices clumped in humid weather.",
+    "solution": "We adjusted the moisture target, added an anti-caking step and chose a pouch with a better moisture barrier.",
+    "result": "The seasoning stayed free-flowing through the whole test period."
+  },
+  "id": {
+    "name": "Dapur Nusa Rendang Mix",
+    "client": "Dapur Nusa",
+    "note": "Stand-up pouch 100 g dengan tear notch.",
+    "fmt": "Stand-up pouch, 100 g",
+    "batch": "800 kg",
+    "time": "6 minggu",
+    "need": "Sebuah brand masakan rumahan menginginkan bumbu rendang siap masak dengan warna gelap yang kaya dan tingkat pedas yang ringan.",
+    "concept": "Satu pouch cukup untuk satu kilogram daging, dengan panduan memasak singkat di bagian belakang.",
+    "challenge": "Rempah bubuk menggumpal saat cuaca lembap.",
+    "solution": "Kami menyesuaikan target kadar air, menambahkan tahap anti-gumpal, dan memilih pouch dengan pelindung kelembapan yang lebih baik.",
+    "result": "Bumbu tetap mudah mengalir sepanjang masa pengujian."
+  }
+}

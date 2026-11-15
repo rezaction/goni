@@ -1,0 +1,98 @@
+{
+  "order": 7,
+  "slug_en": "quality-control-in-food-manufacturing",
+  "slug_id": "proses-quality-control-pangan",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Food & Beverage Manufacturing",
+    "read": "6 min read",
+    "title": "Quality Control in Food and Beverage Manufacturing",
+    "description": "How quality control works in a food factory: incoming checks, in-process checks, testing and traceability.",
+    "related": [
+      {
+        "path": "/about/quality-assurance/",
+        "label": "Quality Assurance"
+      },
+      {
+        "path": "/about/certifications/",
+        "label": "Certifications"
+      },
+      {
+        "path": "/products/",
+        "label": "Product categories"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Quality is built in, not inspected in",
+        "paragraphs": [
+          "Checking only the finished product finds problems too late. Good plants control quality at three points: incoming ingredients, during production and finished goods."
+        ]
+      },
+      {
+        "heading": "Common checks",
+        "paragraphs": [
+          "Moisture content, net weight, seal integrity, appearance, taste and aroma, and metal detection. Microbiological tests are usually done by an accredited laboratory according to regulation."
+        ]
+      },
+      {
+        "heading": "Reference samples",
+        "paragraphs": [
+          "The sample you approved becomes the standard. Each batch is compared with it, which is how taste stays the same from batch to batch."
+        ]
+      },
+      {
+        "heading": "Traceability",
+        "paragraphs": [
+          "Every batch has a lot code linked to ingredient lots and production records. If a problem is found later, it can be traced and contained quickly."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Manufaktur Makanan & Minuman",
+    "read": "6 menit baca",
+    "title": "Kontrol Mutu dalam Manufaktur Makanan dan Minuman",
+    "description": "Cara kerja kontrol mutu di pabrik makanan: pemeriksaan bahan masuk, selama proses, pengujian, dan ketertelusuran.",
+    "related": [
+      {
+        "path": "/id/tentang-kami/jaminan-mutu/",
+        "label": "Jaminan Mutu"
+      },
+      {
+        "path": "/id/tentang-kami/sertifikasi/",
+        "label": "Sertifikasi"
+      },
+      {
+        "path": "/id/produk/",
+        "label": "Kategori produk"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Mutu dibangun, bukan hanya diperiksa",
+        "paragraphs": [
+          "Memeriksa produk jadi saja menemukan masalah terlalu terlambat. Pabrik yang baik mengendalikan mutu di tiga titik: bahan baku masuk, selama produksi, dan barang jadi."
+        ]
+      },
+      {
+        "heading": "Pemeriksaan yang umum",
+        "paragraphs": [
+          "Kadar air, berat neto, keutuhan segel, tampilan, rasa dan aroma, serta deteksi logam. Uji mikrobiologi biasanya dilakukan laboratorium terakreditasi sesuai peraturan."
+        ]
+      },
+      {
+        "heading": "Sampel acuan",
+        "paragraphs": [
+          "Sampel yang Anda setujui menjadi standar. Setiap batch dibandingkan dengannya, dan itulah cara rasa tetap sama dari batch ke batch."
+        ]
+      },
+      {
+        "heading": "Ketertelusuran",
+        "paragraphs": [
+          "Setiap batch memiliki kode lot yang terhubung dengan lot bahan baku dan catatan produksi. Jika ada masalah belakangan, penyebabnya bisa dilacak dan ditangani dengan cepat."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "order": 3,
+  "slug_en": "seasoning-spices",
+  "slug_id": "bumbu-rempah",
+  "photo": "spice grinding",
+  "en": {
+    "name": "Seasoning & Spices",
+    "short": "Seasoning and spices",
+    "desc": "Ready-to-cook seasoning mixes, spice blends and sauce powders.",
+    "moq": "500 kg",
+    "formats": "Pouch, sachet, jar",
+    "hero": "Seasoning and Spices Contract Manufacturing",
+    "lead": "Seasoning mixes, spice blends and sauce powders made to your recipe, with consistent taste and safe handling.",
+    "intro": [
+      "GoNEST manufactures dry seasoning for retail brands, restaurants and food producers. We grind, blend and pack to the heat level and flavor profile you specify.",
+      "Traditional Indonesian flavors are a strength, from rendang and soto to fried chicken coating and all-purpose seasoning."
+    ],
+    "types": [
+      "Ready-to-cook seasoning mixes (rendang, soto, opor)",
+      "Fried-chicken and crispy coating flours",
+      "All-purpose seasoning and flavor enhancers",
+      "Single spice powders and blends",
+      "Sauce and gravy powders"
+    ],
+    "formula": [
+      "Mild, medium and hot versions of the same base",
+      "Reduced-sodium formulas",
+      "No added MSG options",
+      "Natural color and aroma from whole spices"
+    ],
+    "pack": [
+      "Pouch, 50 to 250 g net",
+      "Sachet, 5 to 20 g net",
+      "Jar or shaker, 80 to 200 g",
+      "Bulk bag, 1 to 5 kg, for food service"
+    ],
+    "specs": [
+      {
+        "label": "Minimum order",
+        "value": "500 kg per formula"
+      },
+      {
+        "label": "Sample ready",
+        "value": "7 to 10 working days"
+      },
+      {
+        "label": "Production lead time",
+        "value": "21 to 28 days after approval"
+      },
+      {
+        "label": "Shelf life",
+        "value": "12 months"
+      },
+      {
+        "label": "Indicative price",
+        "value": "from Rp 6.500 per 100 g pouch"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you produce my family recipe?",
+        "a": "Yes. Share the recipe and target taste. We scale it for production and adjust it to stay stable on the shelf."
+      },
+      {
+        "q": "How do you keep taste consistent between batches?",
+        "a": "Raw materials are checked on arrival, blends are weighed by formula, and every batch is compared with the approved reference sample."
+      },
+      {
+        "q": "Can you make a halal-ready product?",
+        "a": "We select ingredients with halal status in mind. Certification of your finished product follows the official process, and we supply the documents you need."
+      },
+      {
+        "q": "What is the smallest pack you fill?",
+        "a": "The sample figure for the smallest sachet is 5 g. For pouches the usual start is 50 g."
+      }
+    ]
+  },
+  "id": {
+    "name": "Bumbu & Rempah",
+    "short": "Bumbu & Rempah",
+    "desc": "Bumbu masak siap pakai, campuran rempah, dan bumbu bubuk saus.",
+    "moq": "500 kg",
+    "formats": "Pouch, sachet, jar",
+    "hero": "Jasa Maklon Bumbu dan Rempah",
+    "lead": "Bumbu masak, campuran rempah, dan bumbu bubuk saus dibuat sesuai resep Anda, dengan rasa yang konsisten dan penanganan yang aman.",
+    "intro": [
+      "GoNEST memproduksi bumbu kering untuk brand ritel, restoran, dan produsen makanan. Kami menggiling, mencampur, dan mengemas sesuai tingkat kepedasan dan profil rasa yang Anda tentukan.",
+      "Cita rasa Nusantara adalah kekuatan kami, dari rendang dan soto sampai tepung bumbu ayam goreng dan bumbu serbaguna."
+    ],
+    "types": [
+      "Bumbu masak siap pakai (rendang, soto, opor)",
+      "Tepung bumbu ayam goreng dan tepung pelapis krispi",
+      "Bumbu serbaguna dan penguat rasa",
+      "Rempah bubuk tunggal dan campuran",
+      "Bumbu bubuk saus dan kuah"
+    ],
+    "formula": [
+      "Versi tidak pedas, sedang, dan pedas dari dasar yang sama",
+      "Formula rendah natrium",
+      "Pilihan tanpa tambahan MSG",
+      "Warna dan aroma alami dari rempah utuh"
+    ],
+    "pack": [
+      "Pouch, 50 sampai 250 g neto",
+      "Sachet, 5 sampai 20 g neto",
+      "Jar atau botol tabur, 80 sampai 200 g",
+      "Kantong curah, 1 sampai 5 kg, untuk food service"
+    ],
+    "specs": [
+      {
+        "label": "Pesanan minimum",
+        "value": "500 kg per formula"
+      },
+      {
+        "label": "Sampel siap",
+        "value": "7 sampai 10 hari kerja"
+      },
+      {
+        "label": "Waktu produksi",
+        "value": "21 sampai 28 hari setelah persetujuan"
+      },
+      {
+        "label": "Masa simpan",
+        "value": "12 bulan"
+      },
+      {
+        "label": "Harga indikatif",
+        "value": "mulai Rp 6.500 per pouch 100 g"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bisakah kalian memproduksi resep keluarga saya?",
+        "a": "Bisa. Bagikan resep dan target rasanya. Kami menyesuaikannya untuk skala produksi dan menjaganya tetap stabil selama disimpan."
+      },
+      {
+        "q": "Bagaimana kalian menjaga rasa tetap konsisten antar batch?",
+        "a": "Bahan baku diperiksa saat tiba, campuran ditimbang sesuai formula, dan setiap batch dibandingkan dengan sampel acuan yang sudah disetujui."
+      },
+      {
+        "q": "Bisakah membuat produk yang siap disertifikasi halal?",
+        "a": "Kami memilih bahan dengan memperhatikan status halal. Sertifikasi produk jadi mengikuti proses resmi, dan kami menyediakan dokumen yang Anda perlukan."
+      },
+      {
+        "q": "Berapa ukuran kemasan terkecil yang bisa diisi?",
+        "a": "Angka contoh untuk sachet terkecil adalah 5 g. Untuk pouch, ukuran awal yang umum adalah 50 g."
+      }
+    ]
+  }
+}

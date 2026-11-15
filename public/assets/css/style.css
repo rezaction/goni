@@ -1,4 +1,4 @@
-/* GONI static website. Edit the tokens below to retheme the whole site. */
+/* GoNEST static website. Edit the tokens below to retheme the whole site. */
 :root{
   --primary:#123B67;
   --secondary:#245B91;
@@ -31,14 +31,27 @@ p{margin:0}
 .skip:focus{left:8px;top:8px}
 .container{max-width:var(--wrap);margin:0 auto;padding-inline:max(24px,env(safe-area-inset-left,0px)) max(24px,env(safe-area-inset-right,0px))}
 
-/* Demo banner (toggle with DEMO_MODE in assets/js/main.js) */
-.demo-banner{background:var(--accent);color:var(--primary);padding:8px 24px;text-align:center;font-size:14px;font-weight:600}
+/* Demo marquee: thin running strip above the header and below the footer (toggle with demo.enabled in the dashboard settings).
+   Not fixed or floating: it scrolls with the page. Colors come from the logo. */
+.tape{position:relative;overflow:hidden;background:#FFCB02;color:#2F2200;padding:7px 0;font-family:var(--font-display);font-weight:800;font-size:11px;letter-spacing:.12em;line-height:1.2;white-space:nowrap;z-index:5}
+.tape-track{display:inline-flex;width:max-content;animation:tape-run 70s linear infinite;will-change:transform}
+.tape-group{display:inline-flex}
+.tape-item{padding-right:40px;white-space:pre}
+@keyframes tape-run{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+@media(max-width:600px){.tape{padding:6px 0;font-size:10px;letter-spacing:.1em}.tape-item{padding-right:28px}}
+@media(prefers-reduced-motion:reduce){
+  .tape{white-space:normal;text-align:center;padding-inline:max(16px,env(safe-area-inset-left,0px),env(safe-area-inset-right,0px))}
+  .tape-track{display:block;width:auto;animation:none}
+  .tape-group{display:block}
+  .tape-group + .tape-group,.tape-item + .tape-item{display:none}
+  .tape-item{padding-right:0;white-space:normal}
+}
 
 /* Header */
 .site-header{background:var(--surface);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}
 .site-header .container{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:14px}
 .brand{display:flex;align-items:center;gap:10px;font-family:var(--font-display);font-weight:800;font-size:26px;letter-spacing:.04em;color:var(--primary);text-decoration:none}
-.brand i{display:inline-block;width:14px;height:14px;background:var(--accent);border-radius:3px}
+.brand img{display:block;width:36px;height:36px;border-radius:8px}
 .nav{display:flex;align-items:center;gap:28px}
 .nav a{font-weight:600;font-size:16px;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
 .nav a:hover,.nav a[aria-current="page"]{border-bottom-color:var(--accent)}
@@ -130,6 +143,9 @@ p{margin:0}
 .dark .card p{color:var(--on-primary)}
 .ph{position:relative;overflow:hidden;background:var(--ph);border:2px dashed var(--ph-line);border-radius:6px;display:flex;align-items:center;justify-content:center;text-align:center;padding:16px;color:#3F5873;font-size:14px;font-weight:600;min-height:120px}
 .ph img{position:absolute;inset:-2px;width:calc(100% + 4px);height:calc(100% + 4px);max-width:none;object-fit:cover}
+.ph.has-img{border:0;padding:0;aspect-ratio:3/2;min-height:0;background:var(--ph)}
+.ph.has-img img{inset:0;width:100%;height:100%}
+.ph.tall.has-img{aspect-ratio:auto;min-height:340px}
 .ph.tall{min-height:340px;border-radius:var(--radius)}
 .note{font-size:14px;color:var(--muted)}
 .list{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
@@ -205,7 +221,7 @@ form.consult{background:var(--surface);color:var(--text);border-radius:var(--rad
 .site-footer strong{display:block;color:#fff;margin-bottom:10px}
 .site-footer a{display:block;text-decoration:none;font-size:15px;padding:3px 0}
 .site-footer a:hover{text-decoration:underline}
-.site-footer a[hidden]{display:none}
+.site-footer a[hidden]{display:none!important}
 .footer-brand{font-family:var(--font-display);font-weight:800;font-size:24px;letter-spacing:.04em;color:#fff;margin-bottom:10px}
 .footer-bottom{border-top:1px solid #2A4B72;margin-top:32px;padding-top:20px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between;font-size:14px}
 @media(max-width:800px){.footer-grid{grid-template-columns:1fr 1fr}}

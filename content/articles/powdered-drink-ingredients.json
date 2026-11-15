@@ -1,0 +1,102 @@
+{
+  "order": 5,
+  "slug_en": "powdered-drink-ingredients",
+  "slug_id": "bahan-baku-minuman-serbuk",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Product Development",
+    "read": "6 min read",
+    "title": "The Main Ingredients in Instant Drink Powders and What Each Does",
+    "description": "A guide to bases, sweeteners, creamers, flavors and functional additions in powdered drinks.",
+    "related": [
+      {
+        "path": "/products/powdered-beverage/",
+        "label": "Powdered Beverage"
+      },
+      {
+        "path": "/services/product-development/",
+        "label": "Product Development"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The base",
+        "paragraphs": [
+          "The base gives body and defines the drink: milk powder, non-dairy creamer, cocoa, matcha, coffee, tea or malt."
+        ]
+      },
+      {
+        "heading": "Sweeteners",
+        "paragraphs": [
+          "Sugar is the most common. Reduced-sugar and sugar-free drinks use approved sweeteners, and the taste has to be rebalanced, because less sugar changes how other flavors are felt."
+        ]
+      },
+      {
+        "heading": "Creamers",
+        "paragraphs": [
+          "Creamers add a smooth feel and help the powder dissolve without lumps. The choice affects cost, taste, and whether the product can be labeled plant-based."
+        ]
+      },
+      {
+        "heading": "Flavors and color",
+        "paragraphs": [
+          "Natural and nature-identical flavors are both used. Stability matters: a flavor that tastes good fresh may fade in six months."
+        ]
+      },
+      {
+        "heading": "Functional additions",
+        "paragraphs": [
+          "Vitamins, collagen or fiber can be added, but each addition affects taste, cost and the claims you can make on the label."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Pengembangan Produk",
+    "read": "6 menit baca",
+    "title": "Bahan Utama Minuman Instan Serbuk dan Fungsinya",
+    "description": "Panduan tentang basis, pemanis, krimer, perisa, dan tambahan fungsional dalam minuman serbuk.",
+    "related": [
+      {
+        "path": "/id/produk/minuman-serbuk/",
+        "label": "Minuman Serbuk"
+      },
+      {
+        "path": "/id/layanan/pengembangan-produk/",
+        "label": "Pengembangan Produk"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Basis",
+        "paragraphs": [
+          "Basis memberi tubuh dan menentukan karakter minuman: susu bubuk, krimer nabati, kakao, matcha, kopi, teh, atau malt."
+        ]
+      },
+      {
+        "heading": "Pemanis",
+        "paragraphs": [
+          "Gula adalah yang paling umum. Minuman rendah gula atau bebas gula memakai pemanis yang diizinkan, dan rasanya perlu diseimbangkan ulang, karena gula yang berkurang mengubah cara rasa lain terasa."
+        ]
+      },
+      {
+        "heading": "Krimer",
+        "paragraphs": [
+          "Krimer memberi rasa lembut dan membantu serbuk larut tanpa menggumpal. Pilihannya memengaruhi biaya, rasa, dan apakah produk bisa dilabeli berbahan nabati."
+        ]
+      },
+      {
+        "heading": "Perisa dan warna",
+        "paragraphs": [
+          "Perisa alami dan identik alami sama-sama dipakai. Stabilitas penting: perisa yang enak saat segar bisa memudar dalam enam bulan."
+        ]
+      },
+      {
+        "heading": "Tambahan fungsional",
+        "paragraphs": [
+          "Vitamin, kolagen, atau serat bisa ditambahkan, tetapi setiap tambahan memengaruhi rasa, biaya, dan klaim yang boleh dicantumkan di label."
+        ]
+      }
+    ]
+  }
+}

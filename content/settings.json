@@ -1,0 +1,49 @@
+{
+  "brand": "GoNEST",
+  "domain": "https://www.gonest.example",
+  "whatsapp": "6281200000000",
+  "whatsapp_display": "+62 812-0000-0000",
+  "email": "hello@gonest.example",
+  "hours": {
+    "en": "Mon to Fri, 08.00 to 17.00 WIB",
+    "id": "Senin sampai Jumat, 08.00 sampai 17.00 WIB"
+  },
+  "address": {
+    "en": "[Replace with factory and office address]",
+    "id": "[Ganti dengan alamat pabrik dan kantor]"
+  },
+  "stats": [
+    {
+      "en_value": "12 years",
+      "en_label": "in food and beverage production",
+      "id_value": "12 tahun",
+      "id_label": "berpengalaman di produksi makanan dan minuman"
+    },
+    {
+      "en_value": "150+",
+      "en_label": "formulas developed",
+      "id_value": "150+",
+      "id_label": "formula dikembangkan"
+    },
+    {
+      "en_value": "40+",
+      "en_label": "brand partners served",
+      "id_value": "40+",
+      "id_label": "mitra brand dilayani"
+    },
+    {
+      "en_value": "4 t / day",
+      "en_label": "powder blending capacity",
+      "id_value": "4 ton / hari",
+      "id_label": "kapasitas pencampuran serbuk"
+    }
+  ],
+  "analytics": {
+    "ga_id": "",
+    "clarity_id": ""
+  },
+  "demo": {
+    "enabled": true,
+    "tape_text": "DESIGN DEMO BY GOLDEN NESTLING •  ALL CONTENT FOR PRESENTATION PURPOSES ONLY."
+  }
+}

@@ -3,11 +3,13 @@
 // Environment variables (Cloudflare Pages > Settings > Variables and Secrets):
 //   RESEND_API_KEY       secret   API key from resend.com (email delivery)
 //   INQUIRY_TO_EMAIL     text     where inquiries are sent, e.g. sales@yourdomain.com
-//   INQUIRY_FROM_EMAIL   text     verified sender, e.g. "GONI Website <inquiry@yourdomain.com>"
+//   INQUIRY_FROM_EMAIL   text     verified sender, e.g. "GoNEST Website <inquiry@yourdomain.com>"
 //   INQUIRY_WEBHOOK_URL  secret   optional: a CRM, Google Apps Script or Zapier webhook that receives the JSON
 //   ALLOWED_ORIGIN       text     optional: e.g. https://www.yourdomain.com. Requests from other origins are refused.
 //
-// At least one of the email pair or the webhook must be configured.
+//   DB                   D1       optional binding: stores every inquiry for the dashboard inbox (see migrations/)
+//
+// At least one of the database, the email pair or the webhook must be configured.
 
 const json = (body, status = 200) =>
   new Response(JSON.stringify(body), {
@@ -48,7 +50,7 @@ function validate(d) {
 function emailText(d) {
   const utm = Object.keys(d.utm).length ? JSON.stringify(d.utm) : '-';
   return [
-    'New inquiry from the GONI website',
+    'New inquiry from the GoNEST website',
     '',
     `Name: ${d.name}`,
     `WhatsApp: ${d.whatsapp}`,
@@ -88,6 +90,12 @@ async function sendWebhook(env, d) {
   if (!res.ok) throw new Error(`webhook returned ${res.status}`);
 }
 
+async function saveToDb(env, d) {
+  await env.DB.prepare(
+    'INSERT INTO inquiries (created_at, name, whatsapp, category, volume, message, page, lang, referrer, utm) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)'
+  ).bind(d.receivedAt, d.name, d.whatsapp, d.category, d.volume, d.message, d.page, d.lang, d.referrer, JSON.stringify(d.utm)).run();
+}
+
 export async function onRequestPost({ request, env }) {
   const origin = request.headers.get('Origin');
   if (env.ALLOWED_ORIGIN && origin && origin !== env.ALLOWED_ORIGIN) {
@@ -110,6 +118,7 @@ export async function onRequestPost({ request, env }) {
   if (problem) return json({ ok: false, error: problem }, 422);
 
   const tasks = [];
+  if (env.DB) tasks.push(saveToDb(env, inquiry));
   if (env.RESEND_API_KEY && env.INQUIRY_TO_EMAIL && env.INQUIRY_FROM_EMAIL) tasks.push(sendEmail(env, inquiry));
   if (env.INQUIRY_WEBHOOK_URL) tasks.push(sendWebhook(env, inquiry));
   if (!tasks.length) return json({ ok: false, error: 'not_configured' }, 503);

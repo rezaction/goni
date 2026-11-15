@@ -1,0 +1,150 @@
+{
+  "order": 2,
+  "slug_en": "coffee",
+  "slug_id": "kopi",
+  "photo": "coffee roasting",
+  "en": {
+    "name": "Coffee",
+    "short": "Coffee",
+    "desc": "Roasted beans, ground coffee and 3-in-1 instant coffee under your brand.",
+    "moq": "300 kg",
+    "formats": "Pouch, sachet, drip bag",
+    "hero": "Coffee Contract Manufacturing",
+    "lead": "Roasted beans, ground coffee and instant coffee mixes produced to your recipe and packed under your brand.",
+    "intro": [
+      "GoNEST produces coffee for cafe brands, retail brands and distributors. We can roast to your profile, grind to your specification, or blend instant mixes that taste the same from batch to batch.",
+      "Whether you start with one roasted blend or a full range of 3-in-1 sachets, we help you choose the right bean, roast level and packaging for your market."
+    ],
+    "types": [
+      "Roasted whole bean (single origin or blend)",
+      "Ground coffee for filter, espresso or manual brew",
+      "3-in-1 and 2-in-1 instant coffee",
+      "Coffee with creamer, brown sugar or flavor",
+      "Drip bags"
+    ],
+    "formula": [
+      "Arabica, robusta and blend options",
+      "Light, medium and dark roast profiles",
+      "Sugar and creamer levels adjustable to your taste target",
+      "Flavored variants such as hazelnut or caramel"
+    ],
+    "pack": [
+      "Pouch with one-way valve, 100 g to 1 kg",
+      "Instant sachet, 18 to 25 g net",
+      "Drip bag, 10 to 12 g per bag",
+      "Gift box and multipack options"
+    ],
+    "specs": [
+      {
+        "label": "Minimum order",
+        "value": "300 kg roasted; 1,000 kg instant"
+      },
+      {
+        "label": "Sample ready",
+        "value": "5 to 7 working days"
+      },
+      {
+        "label": "Production lead time",
+        "value": "14 to 30 days after approval"
+      },
+      {
+        "label": "Shelf life",
+        "value": "9 to 12 months roasted; 12 months instant"
+      },
+      {
+        "label": "Indicative price",
+        "value": "from Rp 38.000 per 200 g pouch"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Can you roast to my own profile?",
+        "a": "Yes. Share your roast curve or a reference sample and we will match it, then lock the profile for every batch."
+      },
+      {
+        "q": "Do you supply the green beans?",
+        "a": "We can source from our supplier network, or roast beans that you supply. Pricing differs for each route."
+      },
+      {
+        "q": "What is the minimum for instant coffee?",
+        "a": "The sample figure is 1,000 kg per formula, usually about 40,000 sachets of 25 g."
+      },
+      {
+        "q": "Can I add my own origin story to the packaging?",
+        "a": "Yes. Origin, roast date and brew guidance can be printed on the label as long as they are accurate."
+      }
+    ]
+  },
+  "id": {
+    "name": "Kopi",
+    "short": "Kopi",
+    "desc": "Biji sangrai, kopi bubuk, dan kopi instan 3-in-1 dengan merek Anda.",
+    "moq": "300 kg",
+    "formats": "Pouch, sachet, drip bag",
+    "hero": "Jasa Maklon Kopi",
+    "lead": "Biji kopi sangrai, kopi bubuk, dan kopi instan diproduksi sesuai resep Anda dan dikemas dengan merek Anda.",
+    "intro": [
+      "GoNEST memproduksi kopi untuk brand kafe, brand ritel, dan distributor. Kami bisa menyangrai sesuai profil Anda, menggiling sesuai spesifikasi, atau membuat campuran kopi instan dengan rasa yang sama dari batch ke batch.",
+      "Entah Anda memulai dengan satu blend sangrai atau satu lini sachet 3-in-1, kami membantu memilih biji, tingkat sangrai, dan kemasan yang cocok untuk pasar Anda."
+    ],
+    "types": [
+      "Biji sangrai (single origin atau blend)",
+      "Kopi bubuk untuk filter, espresso, atau seduh manual",
+      "Kopi instan 3-in-1 dan 2-in-1",
+      "Kopi dengan krimer, gula aren, atau perisa",
+      "Drip bag"
+    ],
+    "formula": [
+      "Pilihan arabika, robusta, dan blend",
+      "Profil sangrai light, medium, dan dark",
+      "Kadar gula dan krimer dapat disesuaikan dengan target rasa Anda",
+      "Varian berperisa seperti hazelnut atau karamel"
+    ],
+    "pack": [
+      "Pouch dengan katup satu arah, 100 g sampai 1 kg",
+      "Sachet instan, 18 sampai 25 g neto",
+      "Drip bag, 10 sampai 12 g per kantong",
+      "Pilihan boks hadiah dan multipack"
+    ],
+    "specs": [
+      {
+        "label": "Pesanan minimum",
+        "value": "300 kg kopi sangrai; 1.000 kg kopi instan"
+      },
+      {
+        "label": "Sampel siap",
+        "value": "5 sampai 7 hari kerja"
+      },
+      {
+        "label": "Waktu produksi",
+        "value": "14 sampai 30 hari setelah persetujuan"
+      },
+      {
+        "label": "Masa simpan",
+        "value": "9 sampai 12 bulan kopi sangrai; 12 bulan kopi instan"
+      },
+      {
+        "label": "Harga indikatif",
+        "value": "mulai Rp 38.000 per pouch 200 g"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Bisakah menyangrai sesuai profil saya?",
+        "a": "Bisa. Bagikan kurva sangrai atau sampel acuan Anda, lalu kami menyamakannya dan mengunci profil itu untuk setiap batch."
+      },
+      {
+        "q": "Apakah kalian menyediakan green bean?",
+        "a": "Kami bisa mencarikan dari jaringan pemasok, atau menyangrai biji yang Anda sediakan. Harganya berbeda untuk tiap jalur."
+      },
+      {
+        "q": "Berapa minimum untuk kopi instan?",
+        "a": "Angka contohnya 1.000 kg per formula, sekitar 40.000 sachet 25 g."
+      },
+      {
+        "q": "Bolehkah mencantumkan cerita asal kopi di kemasan?",
+        "a": "Boleh. Asal, tanggal sangrai, dan panduan seduh bisa dicetak di label selama informasinya benar."
+      }
+    ]
+  }
+}

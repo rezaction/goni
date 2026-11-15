@@ -1,0 +1,110 @@
+{
+  "order": 1,
+  "slug_en": "what-is-contract-manufacturing",
+  "slug_id": "apa-itu-jasa-maklon",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Maklon Guides",
+    "read": "6 min read",
+    "title": "What Is Contract Manufacturing (Maklon) and How Does It Work?",
+    "description": "A plain explanation of contract manufacturing for food and beverage brands: what it is, who it suits, and the steps from idea to finished product.",
+    "related": [
+      {
+        "path": "/services/contract-manufacturing/",
+        "label": "Contract Manufacturing"
+      },
+      {
+        "path": "/how-it-works/",
+        "label": "How It Works"
+      },
+      {
+        "path": "/products/",
+        "label": "Product categories"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "The short answer",
+        "paragraphs": [
+          "Contract manufacturing, known in Indonesia as maklon, means a factory produces your product under your brand. You own the brand, the marketing and the customer relationship. The factory provides the machines, the people and the production know-how.",
+          "For a food or beverage brand this removes the largest upfront cost: building and licensing a production facility."
+        ]
+      },
+      {
+        "heading": "Who uses it",
+        "paragraphs": [
+          "New entrepreneurs who want to launch a first product without owning a factory.",
+          "Established brands that want to add a new product line or flavor.",
+          "Distributors that want a house brand.",
+          "Companies that want to outsource part of their production to focus on sales."
+        ]
+      },
+      {
+        "heading": "How a project works",
+        "paragraphs": [
+          "Most projects follow the same stages: consultation, formula development, sampling and approval, production, quality control and delivery. Each stage has a clear output, so you know what has been agreed before the next one starts.",
+          "The time from first consultation to delivery depends on the product and on how fast packaging artwork is approved. Five to eight weeks is a common range for a new product."
+        ]
+      },
+      {
+        "heading": "What to check before you start",
+        "paragraphs": [
+          "Ask about the minimum order, the number of sample rounds included, who owns the formula, and how batches are checked before release.",
+          "A good partner answers these clearly at the first meeting."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Panduan Maklon",
+    "read": "6 menit baca",
+    "title": "Apa Itu Jasa Maklon dan Bagaimana Cara Kerjanya?",
+    "description": "Penjelasan sederhana tentang jasa maklon untuk brand makanan dan minuman: apa itu, siapa yang cocok memakainya, dan tahapan dari ide sampai produk jadi.",
+    "related": [
+      {
+        "path": "/id/layanan/jasa-maklon/",
+        "label": "Jasa Maklon"
+      },
+      {
+        "path": "/id/cara-kerja/",
+        "label": "Cara Kerja"
+      },
+      {
+        "path": "/id/produk/",
+        "label": "Kategori produk"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Jawaban singkat",
+        "paragraphs": [
+          "Jasa maklon berarti pabrik memproduksi produk Anda dengan merek Anda. Anda memiliki brand, pemasaran, dan hubungan dengan pelanggan. Pabrik menyediakan mesin, tenaga kerja, dan keahlian produksi.",
+          "Untuk brand makanan dan minuman, ini menghilangkan biaya terbesar di awal: membangun dan mengurus izin fasilitas produksi."
+        ]
+      },
+      {
+        "heading": "Siapa yang memakainya",
+        "paragraphs": [
+          "Pengusaha baru yang ingin meluncurkan produk pertama tanpa memiliki pabrik.",
+          "Brand mapan yang ingin menambah lini atau rasa baru.",
+          "Distributor yang ingin punya merek sendiri.",
+          "Perusahaan yang mengalihdayakan sebagian produksi agar fokus pada penjualan."
+        ]
+      },
+      {
+        "heading": "Bagaimana proyek berjalan",
+        "paragraphs": [
+          "Kebanyakan proyek mengikuti tahapan yang sama: konsultasi, pengembangan formula, sampel dan persetujuan, produksi, kontrol mutu, dan pengiriman. Setiap tahap punya hasil yang jelas, sehingga Anda tahu apa yang sudah disepakati sebelum tahap berikutnya dimulai.",
+          "Waktu dari konsultasi pertama sampai pengiriman bergantung pada produk dan kecepatan persetujuan desain kemasan. Lima sampai delapan minggu adalah rentang yang umum untuk produk baru."
+        ]
+      },
+      {
+        "heading": "Yang perlu dicek sebelum mulai",
+        "paragraphs": [
+          "Tanyakan pesanan minimum, jumlah putaran sampel yang termasuk, siapa pemilik formula, dan bagaimana setiap batch diperiksa sebelum dilepas.",
+          "Mitra yang baik menjawab semua ini dengan jelas sejak pertemuan pertama."
+        ]
+      }
+    ]
+  }
+}

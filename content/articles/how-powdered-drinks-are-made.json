@@ -1,0 +1,110 @@
+{
+  "order": 4,
+  "slug_en": "how-powdered-drinks-are-made",
+  "slug_id": "cara-membuat-minuman-serbuk",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Food & Beverage Manufacturing",
+    "read": "7 min read",
+    "title": "How Powdered Drinks Are Made: From Ingredients to Sachet",
+    "description": "A look at the production steps of an instant drink powder, and where quality is controlled along the way.",
+    "related": [
+      {
+        "path": "/products/powdered-beverage/",
+        "label": "Powdered Beverage"
+      },
+      {
+        "path": "/about/quality-assurance/",
+        "label": "Quality Assurance"
+      },
+      {
+        "path": "/about/facilities/",
+        "label": "Facilities"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "1. Receiving and weighing",
+        "paragraphs": [
+          "Ingredients are checked on arrival, stored by type, and weighed against the formula. Accurate weighing is the first control on taste."
+        ]
+      },
+      {
+        "heading": "2. Blending",
+        "paragraphs": [
+          "Dry ingredients go into a blender in a set order and for a set time. Too little mixing leaves uneven flavor, and too much can damage fine particles."
+        ]
+      },
+      {
+        "heading": "3. Sieving and checks",
+        "paragraphs": [
+          "The blend is sieved to remove lumps and foreign matter, then checked for moisture, color and taste against the approved sample."
+        ]
+      },
+      {
+        "heading": "4. Filling and sealing",
+        "paragraphs": [
+          "The powder is filled into sachets, pouches or jars to a set net weight. Seal quality matters because moisture is the main enemy of a powder."
+        ]
+      },
+      {
+        "heading": "5. Packing and release",
+        "paragraphs": [
+          "Finished packs are cartoned, labeled with a lot code, and released only after the batch passes the final checks."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Manufaktur Makanan & Minuman",
+    "read": "7 menit baca",
+    "title": "Bagaimana Minuman Serbuk Dibuat: dari Bahan Baku sampai Sachet",
+    "description": "Gambaran tahapan produksi minuman instan serbuk dan titik-titik pengendalian mutunya.",
+    "related": [
+      {
+        "path": "/id/produk/minuman-serbuk/",
+        "label": "Minuman Serbuk"
+      },
+      {
+        "path": "/id/tentang-kami/jaminan-mutu/",
+        "label": "Jaminan Mutu"
+      },
+      {
+        "path": "/id/tentang-kami/fasilitas/",
+        "label": "Fasilitas"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "1. Penerimaan dan penimbangan",
+        "paragraphs": [
+          "Bahan baku diperiksa saat tiba, disimpan menurut jenisnya, dan ditimbang sesuai formula. Penimbangan yang akurat adalah kontrol pertama atas rasa."
+        ]
+      },
+      {
+        "heading": "2. Pencampuran",
+        "paragraphs": [
+          "Bahan kering dimasukkan ke mixer dalam urutan dan waktu tertentu. Pencampuran yang kurang membuat rasa tidak merata, dan yang berlebihan bisa merusak partikel halus."
+        ]
+      },
+      {
+        "heading": "3. Pengayakan dan pemeriksaan",
+        "paragraphs": [
+          "Campuran diayak untuk membuang gumpalan dan benda asing, lalu diperiksa kadar air, warna, dan rasanya terhadap sampel yang disetujui."
+        ]
+      },
+      {
+        "heading": "4. Pengisian dan penyegelan",
+        "paragraphs": [
+          "Serbuk diisi ke sachet, pouch, atau jar dengan berat neto yang ditetapkan. Kualitas segel sangat penting karena kelembapan adalah musuh utama serbuk."
+        ]
+      },
+      {
+        "heading": "5. Pengepakan dan pelepasan",
+        "paragraphs": [
+          "Produk jadi dimasukkan ke karton, diberi kode lot, dan hanya dilepas setelah batch lolos pemeriksaan akhir."
+        ]
+      }
+    ]
+  }
+}

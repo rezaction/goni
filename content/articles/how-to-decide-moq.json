@@ -1,0 +1,104 @@
+{
+  "order": 6,
+  "slug_en": "how-to-decide-moq",
+  "slug_id": "cara-menentukan-moq",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Maklon Guides",
+    "read": "5 min read",
+    "title": "How to Decide Your Minimum Order Quantity (MOQ)",
+    "description": "Why contract manufacturers set minimum orders, and how to plan a first batch without over-ordering.",
+    "related": [
+      {
+        "path": "/how-it-works/",
+        "label": "MOQ and requirements"
+      },
+      {
+        "path": "/services/private-label/",
+        "label": "Private label"
+      },
+      {
+        "path": "/products/",
+        "label": "Product categories"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Why a minimum exists",
+        "paragraphs": [
+          "A production run has fixed costs: cleaning, setup, ingredient purchasing and quality checks. Below a certain size the cost per unit becomes too high for both sides."
+        ]
+      },
+      {
+        "heading": "Think in units, not kilograms",
+        "paragraphs": [
+          "A 1,000 kg minimum sounds large, but it is roughly 40,000 sachets of 25 g. Work out how many units you can realistically sell in three to six months."
+        ]
+      },
+      {
+        "heading": "Ways to lower the first order",
+        "paragraphs": [
+          "Choose a private-label base formula.",
+          "Share one base across several flavors in one run.",
+          "Start with one pack size.",
+          "Ask whether the minimum differs between categories."
+        ]
+      },
+      {
+        "heading": "Do not forget shelf life",
+        "paragraphs": [
+          "An order that takes longer than the shelf life to sell is a loss. Match the first batch to your sales plan."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Panduan Maklon",
+    "read": "5 menit baca",
+    "title": "Cara Menentukan Pesanan Minimum (MOQ) Anda",
+    "description": "Mengapa pabrik maklon menetapkan pesanan minimum, dan cara merencanakan batch pertama tanpa memesan berlebihan.",
+    "related": [
+      {
+        "path": "/id/cara-kerja/",
+        "label": "MOQ dan persyaratan"
+      },
+      {
+        "path": "/id/layanan/private-label/",
+        "label": "Private label"
+      },
+      {
+        "path": "/id/produk/",
+        "label": "Kategori produk"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Mengapa ada minimum",
+        "paragraphs": [
+          "Satu kali produksi punya biaya tetap: pembersihan, persiapan mesin, pembelian bahan, dan pemeriksaan mutu. Di bawah ukuran tertentu, biaya per unit menjadi terlalu tinggi bagi kedua pihak."
+        ]
+      },
+      {
+        "heading": "Pikirkan dalam unit, bukan kilogram",
+        "paragraphs": [
+          "Minimum 1.000 kg terdengar besar, tetapi itu sekitar 40.000 sachet 25 g. Hitung berapa unit yang realistis bisa Anda jual dalam tiga sampai enam bulan."
+        ]
+      },
+      {
+        "heading": "Cara menurunkan pesanan pertama",
+        "paragraphs": [
+          "Pilih formula dasar private label.",
+          "Pakai satu dasar untuk beberapa rasa dalam satu kali produksi.",
+          "Mulai dengan satu ukuran kemasan.",
+          "Tanyakan apakah minimumnya berbeda antar kategori."
+        ]
+      },
+      {
+        "heading": "Jangan lupa masa simpan",
+        "paragraphs": [
+          "Pesanan yang butuh waktu lebih lama dari masa simpan untuk habis terjual adalah kerugian. Sesuaikan batch pertama dengan rencana penjualan Anda."
+        ]
+      }
+    ]
+  }
+}

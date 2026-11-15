@@ -1,0 +1,32 @@
+{
+  "slug": "kebun-pagi-arabica-blend",
+  "category": "coffee",
+  "photo": "roasted coffee bags",
+  "date": "2026-11-10",
+  "en": {
+    "name": "Kebun Pagi Arabica Blend",
+    "client": "Kebun Pagi",
+    "note": "200 g valve pouch, medium roast, ground and whole bean.",
+    "fmt": "Valve pouch, 200 g",
+    "batch": "400 kg",
+    "time": "5 weeks",
+    "need": "A small cafe wanted to sell its house blend in retail pouches without changing the taste customers already knew.",
+    "concept": "The cafe blend in two grinds and whole bean, with roast date and brew guidance on the label.",
+    "challenge": "Matching the cafe roast profile at a larger batch size.",
+    "solution": "We matched the roast curve against the cafe sample and locked the profile for every later batch.",
+    "result": "Cupping tests of the first three batches matched the cafe reference."
+  },
+  "id": {
+    "name": "Kebun Pagi Arabica Blend",
+    "client": "Kebun Pagi",
+    "note": "Pouch katup 200 g, sangrai medium, tersedia bubuk dan biji utuh.",
+    "fmt": "Pouch katup, 200 g",
+    "batch": "400 kg",
+    "time": "5 minggu",
+    "need": "Sebuah kafe kecil ingin menjual house blend-nya dalam pouch ritel tanpa mengubah rasa yang sudah dikenal pelanggan.",
+    "concept": "Blend kafe dalam dua tingkat gilingan dan biji utuh, dengan tanggal sangrai dan panduan seduh di label.",
+    "challenge": "Menyamakan profil sangrai kafe pada ukuran batch yang lebih besar.",
+    "solution": "Kami menyamakan kurva sangrai dengan sampel kafe dan mengunci profil itu untuk setiap batch berikutnya.",
+    "result": "Uji cupping pada tiga batch pertama sama dengan acuan kafe."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "kopi-sore-brown-sugar-latte",
+  "category": "powdered-beverage",
+  "photo": "finished sachets",
+  "date": "2026-11-10",
+  "en": {
+    "name": "Kopi Sore Brown Sugar Latte",
+    "client": "Kopi Sore",
+    "note": "3-in-1 sachet, 1,500 kg first batch, launched in 7 weeks.",
+    "fmt": "Sachet, 25 g net",
+    "batch": "1,500 kg",
+    "time": "7 weeks",
+    "need": "A new coffee brand wanted a brown sugar latte sachet that tastes like a cafe drink and dissolves in cold or hot water.",
+    "concept": "A creamy brown sugar latte with a medium coffee note, sold in a 10-sachet display box.",
+    "challenge": "The first samples separated and left sediment in cold water.",
+    "solution": "We changed the creamer base and the particle size of the sugar, then ran two more sample rounds until the drink stayed smooth.",
+    "result": "The approved formula passed three consecutive production batches with the same taste and dissolving time."
+  },
+  "id": {
+    "name": "Kopi Sore Brown Sugar Latte",
+    "client": "Kopi Sore",
+    "note": "Sachet 3-in-1, batch pertama 1.500 kg, meluncur dalam 7 minggu.",
+    "fmt": "Sachet, 25 g neto",
+    "batch": "1.500 kg",
+    "time": "7 minggu",
+    "need": "Sebuah brand kopi baru menginginkan sachet latte brown sugar yang rasanya seperti minuman kafe dan larut dalam air dingin maupun panas.",
+    "concept": "Latte brown sugar yang creamy dengan sentuhan kopi sedang, dijual dalam boks display isi 10 sachet.",
+    "challenge": "Sampel awal memisah dan meninggalkan endapan di air dingin.",
+    "solution": "Kami mengganti basis krimer dan ukuran partikel gula, lalu menjalankan dua putaran sampel lagi sampai minuman tetap halus.",
+    "result": "Formula yang disetujui lolos tiga batch produksi berturut-turut dengan rasa dan waktu larut yang sama."
+  }
+}

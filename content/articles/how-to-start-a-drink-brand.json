@@ -1,0 +1,110 @@
+{
+  "order": 3,
+  "slug_en": "how-to-start-a-drink-brand",
+  "slug_id": "panduan-memulai-brand-minuman",
+  "date": "2026-11-10",
+  "en": {
+    "category": "Product Development",
+    "read": "8 min read",
+    "title": "How to Start Your Own Drink Brand: A Practical Guide",
+    "description": "A step-by-step guide for first-time founders who want to launch a powdered or instant drink under their own brand.",
+    "related": [
+      {
+        "path": "/products/powdered-beverage/",
+        "label": "Powdered Beverage manufacturing"
+      },
+      {
+        "path": "/services/private-label/",
+        "label": "Private label"
+      },
+      {
+        "path": "/how-it-works/",
+        "label": "How It Works"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Start with the customer, not the formula",
+        "paragraphs": [
+          "Decide who will drink it, when and where. An office worker who wants a quick afternoon drink needs a different product from a family buying for the weekend."
+        ]
+      },
+      {
+        "heading": "Define the product",
+        "paragraphs": [
+          "Write one page: flavor, texture, pack size, target price and where it will be sold. A reference product that you like is very helpful for the factory."
+        ]
+      },
+      {
+        "heading": "Choose how to make it",
+        "paragraphs": [
+          "Most first-time brands do not build a factory. They work with a contract manufacturer through private label or ODM. See the guide on OEM, ODM and private label for the difference."
+        ]
+      },
+      {
+        "heading": "Plan the first batch",
+        "paragraphs": [
+          "Keep the first order close to the minimum so cash is not tied up. Several flavors on one base formula can share a production run."
+        ]
+      },
+      {
+        "heading": "Do not forget",
+        "paragraphs": [
+          "Brand name and logo, packaging artwork, product registration and a plan for how the first customers will find you. Packaging artwork is usually the longest wait, so start it while samples are being developed."
+        ]
+      }
+    ]
+  },
+  "id": {
+    "category": "Pengembangan Produk",
+    "read": "8 menit baca",
+    "title": "Cara Memulai Brand Minuman Sendiri: Panduan Praktis",
+    "description": "Panduan langkah demi langkah bagi pendiri baru yang ingin meluncurkan minuman serbuk atau instan dengan merek sendiri.",
+    "related": [
+      {
+        "path": "/id/produk/minuman-serbuk/",
+        "label": "Maklon minuman serbuk"
+      },
+      {
+        "path": "/id/layanan/private-label/",
+        "label": "Private label"
+      },
+      {
+        "path": "/id/cara-kerja/",
+        "label": "Cara Kerja"
+      }
+    ],
+    "sections": [
+      {
+        "heading": "Mulai dari pelanggan, bukan formula",
+        "paragraphs": [
+          "Tentukan siapa yang akan meminumnya, kapan, dan di mana. Pekerja kantoran yang butuh minuman cepat di sore hari memerlukan produk yang berbeda dari keluarga yang membeli untuk akhir pekan."
+        ]
+      },
+      {
+        "heading": "Rumuskan produknya",
+        "paragraphs": [
+          "Tulis satu halaman: rasa, tekstur, ukuran kemasan, target harga, dan tempat produk akan dijual. Produk acuan yang Anda sukai sangat membantu pabrik."
+        ]
+      },
+      {
+        "heading": "Pilih cara membuatnya",
+        "paragraphs": [
+          "Kebanyakan brand pemula tidak membangun pabrik. Mereka bekerja sama dengan pabrik maklon lewat private label atau ODM. Lihat panduan OEM, ODM, dan private label untuk memahami bedanya."
+        ]
+      },
+      {
+        "heading": "Rencanakan batch pertama",
+        "paragraphs": [
+          "Jaga agar pesanan pertama dekat dengan angka minimum supaya modal tidak tertahan. Beberapa rasa dengan satu formula dasar bisa berbagi satu kali produksi."
+        ]
+      },
+      {
+        "heading": "Jangan lupa",
+        "paragraphs": [
+          "Nama brand dan logo, desain kemasan, pendaftaran produk, dan rencana bagaimana pelanggan pertama akan menemukan Anda. Desain kemasan biasanya yang paling lama ditunggu, jadi mulailah selagi sampel dikembangkan."
+        ]
+      }
+    ]
+  }
+}

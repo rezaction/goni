@@ -1,0 +1,130 @@
+{
+  "slots": [
+    {
+      "key": "production floor",
+      "label_en": "production floor",
+      "label_id": "lantai produksi",
+      "image": ""
+    },
+    {
+      "key": "qc laboratory",
+      "label_en": "qc laboratory",
+      "label_id": "laboratorium QC",
+      "image": ""
+    },
+    {
+      "key": "company building",
+      "label_en": "company building",
+      "label_id": "gedung perusahaan",
+      "image": ""
+    },
+    {
+      "key": "powder blending",
+      "label_en": "powder blending",
+      "label_id": "pencampuran serbuk",
+      "image": ""
+    },
+    {
+      "key": "coffee roasting",
+      "label_en": "coffee roasting",
+      "label_id": "penyangraian kopi",
+      "image": ""
+    },
+    {
+      "key": "spice grinding",
+      "label_en": "spice grinding",
+      "label_id": "penggilingan rempah",
+      "image": ""
+    },
+    {
+      "key": "herbal drying",
+      "label_en": "herbal drying",
+      "label_id": "pengeringan herbal",
+      "image": ""
+    },
+    {
+      "key": "quality inspection",
+      "label_en": "quality inspection",
+      "label_id": "pemeriksaan mutu",
+      "image": ""
+    },
+    {
+      "key": "finished sachets",
+      "label_en": "finished sachets",
+      "label_id": "sachet jadi",
+      "image": ""
+    },
+    {
+      "key": "seasoning pouches",
+      "label_en": "seasoning pouches",
+      "label_id": "kemasan pouch bumbu",
+      "image": ""
+    },
+    {
+      "key": "herbal drink boxes",
+      "label_en": "herbal drink boxes",
+      "label_id": "boks minuman herbal",
+      "image": ""
+    },
+    {
+      "key": "roasted coffee bags",
+      "label_en": "roasted coffee bags",
+      "label_id": "kemasan kopi sangrai",
+      "image": ""
+    },
+    {
+      "key": "receiving and storage",
+      "label_en": "receiving and storage",
+      "label_id": "penerimaan dan penyimpanan",
+      "image": ""
+    },
+    {
+      "key": "dry blending room",
+      "label_en": "dry blending room",
+      "label_id": "ruang pencampuran kering",
+      "image": ""
+    },
+    {
+      "key": "filling and sealing line",
+      "label_en": "filling and sealing line",
+      "label_id": "lini pengisian dan penyegelan",
+      "image": ""
+    },
+    {
+      "key": "packing area",
+      "label_en": "packing area",
+      "label_id": "area pengepakan",
+      "image": ""
+    },
+    {
+      "key": "finished goods warehouse",
+      "label_en": "finished goods warehouse",
+      "label_id": "gudang barang jadi",
+      "image": ""
+    },
+    {
+      "key": "sample development",
+      "label_en": "sample development",
+      "label_id": "pengembangan sampel",
+      "image": ""
+    },
+    {
+      "key": "packaging options",
+      "label_en": "packaging options",
+      "label_id": "pilihan kemasan",
+      "image": ""
+    },
+    {
+      "key": "tasting session",
+      "label_en": "tasting session",
+      "label_id": "tasting session",
+      "image": ""
+    },
+    {
+      "key": "client meeting",
+      "label_en": "client meeting",
+      "label_id": "pertemuan dengan klien",
+      "image": ""
+    }
+  ]
+}

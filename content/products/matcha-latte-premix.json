@@ -1,0 +1,19 @@
+{
+  "slug": "matcha-latte-premix",
+  "order": 1,
+  "category": "powdered-beverage",
+  "en": {
+    "name": "Matcha Latte Premix",
+    "format": "Sachet 25 g",
+    "moq": "1,000 kg",
+    "price": "from Rp 2.900 / sachet",
+    "lead_time": "25 to 30 days"
+  },
+  "id": {
+    "name": "Premix Latte Matcha",
+    "format": "Sachet 25 g",
+    "moq": "1.000 kg",
+    "price": "mulai Rp 2.900 / sachet",
+    "lead_time": "25 sampai 30 hari"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "order": 4,
+  "slug_en": "herbal-products",
+  "slug_id": "produk-herbal",
+  "photo": "herbal drying",
+  "en": {
+    "name": "Herbal Products",
+    "short": "Herbal products",
+    "desc": "Instant herbal drinks, simplicia and traditional wellness powders.",
+    "moq": "500 kg",
+    "formats": "Sachet, pouch, box",
+    "hero": "Herbal Products Contract Manufacturing",
+    "lead": "Instant herbal drinks and traditional wellness powders, developed with careful ingredient selection and clear documentation.",
+    "intro": [
+      "GoNEST produces herbal products for wellness brands, distributors and retailers. We work with ingredients such as ginger, turmeric, temulawak and moringa, in instant drink or powder form.",
+      "Herbal products need careful claims and registration. We help you understand the documents you will need and support you through the process with the relevant authority."
+    ],
+    "types": [
+      "Instant red ginger and ginger drinks",
+      "Turmeric and temulawak drinks",
+      "Moringa and leaf powders",
+      "Herbal tea blends",
+      "Traditional jamu-style powders"
+    ],
+    "formula": [
+      "Extract-based and whole-powder formulas",
+      "Sugar-free and low-sugar options",
+      "Blends with honey or palm sugar notes",
+      "Standardized ingredient lists with batch records"
+    ],
+    "pack": [
+      "Sachet, 10 to 25 g net",
+      "Pouch, 100 to 250 g net",
+      "Box of 10 or 20 sachets",
+      "Jar, 100 to 200 g"
+    ],
+    "specs": [
+      {
+        "label": "Minimum order",
+        "value": "500 kg per formula"
+      },
+      {
+        "label": "Sample ready",
+        "value": "10 to 14 working days"
+      },
+      {
+        "label": "Production lead time",
+        "value": "21 to 28 days after approval"
+      },
+      {
+        "label": "Shelf life",
+        "value": "12 to 24 months"
+      },
+      {
+        "label": "Indicative price",
+        "value": "from Rp 2.400 per 20 g sachet"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Do you handle product registration?",
+        "a": "Registration is the brand owner's responsibility, but we provide formula, process and test documents and can guide you on the steps."
+      },
+      {
+        "q": "Can I make health claims on the label?",
+        "a": "Claims must follow the rules of the relevant regulator. We help you review wording and avoid claims you cannot support."
+      },
+      {
+        "q": "Can you work with my own ingredient supplier?",
+        "a": "Yes, provided the ingredients pass our incoming inspection and come with the right documents."
+      },
+      {
+        "q": "What is the minimum for a new herbal drink?",
+        "a": "The sample figure is 500 kg per formula, which is about 25,000 sachets of 20 g."
+      }
+    ]
+  },
+  "id": {
+    "name": "Produk Herbal",
+    "short": "Produk Herbal",
+    "desc": "Minuman herbal instan, simplisia, dan serbuk kesehatan tradisional.",
+    "moq": "500 kg",
+    "formats": "Sachet, pouch, boks",
+    "hero": "Jasa Maklon Produk Herbal",
+    "lead": "Minuman herbal instan dan serbuk kesehatan tradisional, dikembangkan dengan pemilihan bahan yang cermat dan dokumentasi yang jelas.",
+    "intro": [
+      "GoNEST memproduksi produk herbal untuk brand kesehatan, distributor, dan peritel. Kami bekerja dengan bahan seperti jahe, kunyit, temulawak, dan kelor, dalam bentuk minuman instan atau serbuk.",
+      "Produk herbal memerlukan klaim dan pendaftaran yang hati-hati. Kami membantu Anda memahami dokumen yang dibutuhkan dan mendampingi proses di instansi terkait."
+    ],
+    "types": [
+      "Minuman instan jahe merah dan jahe",
+      "Minuman kunyit dan temulawak",
+      "Serbuk kelor dan daun-daunan",
+      "Campuran teh herbal",
+      "Serbuk ala jamu tradisional"
+    ],
+    "formula": [
+      "Formula berbasis ekstrak dan serbuk utuh",
+      "Pilihan bebas gula dan rendah gula",
+      "Campuran dengan nuansa madu atau gula aren",
+      "Daftar bahan terstandar dengan catatan batch"
+    ],
+    "pack": [
+      "Sachet, 10 sampai 25 g neto",
+      "Pouch, 100 sampai 250 g neto",
+      "Boks isi 10 atau 20 sachet",
+      "Jar, 100 sampai 200 g"
+    ],
+    "specs": [
+      {
+        "label": "Pesanan minimum",
+        "value": "500 kg per formula"
+      },
+      {
+        "label": "Sampel siap",
+        "value": "10 sampai 14 hari kerja"
+      },
+      {
+        "label": "Waktu produksi",
+        "value": "21 sampai 28 hari setelah persetujuan"
+      },
+      {
+        "label": "Masa simpan",
+        "value": "12 sampai 24 bulan"
+      },
+      {
+        "label": "Harga indikatif",
+        "value": "mulai Rp 2.400 per sachet 20 g"
+      }
+    ],
+    "faqs": [
+      {
+        "q": "Apakah kalian mengurus pendaftaran produk?",
+        "a": "Pendaftaran adalah tanggung jawab pemilik brand, tetapi kami menyediakan dokumen formula, proses, dan uji, serta membantu memandu langkah-langkahnya."
+      },
+      {
+        "q": "Bolehkah saya mencantumkan klaim kesehatan di label?",
+        "a": "Klaim harus mengikuti aturan regulator terkait. Kami membantu meninjau kata-kata dan menghindari klaim yang tidak bisa dibuktikan."
+      },
+      {
+        "q": "Bisakah memakai pemasok bahan baku saya sendiri?",
+        "a": "Bisa, selama bahannya lolos pemeriksaan penerimaan kami dan disertai dokumen yang sesuai."
+      },
+      {
+        "q": "Berapa minimum untuk minuman herbal baru?",
+        "a": "Angka contohnya 500 kg per formula, sekitar 25.000 sachet 20 g."
+      }
+    ]
+  }
+}

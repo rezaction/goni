@@ -1,0 +1,19 @@
+{
+  "slug": "roasted-arabica-blend",
+  "order": 3,
+  "category": "coffee",
+  "en": {
+    "name": "Roasted Arabica Blend",
+    "format": "Pouch 200 g",
+    "moq": "300 kg",
+    "price": "from Rp 38.000 / pouch",
+    "lead_time": "14 to 21 days"
+  },
+  "id": {
+    "name": "Blend Arabika Sangrai",
+    "format": "Pouch 200 g",
+    "moq": "300 kg",
+    "price": "mulai Rp 38.000 / pouch",
+    "lead_time": "14 sampai 21 hari"
+  }
+}
