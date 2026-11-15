@@ -33,7 +33,7 @@
 </style>
 </head>
 <body>
-<header><h1>Inquiry inbox</h1><a href="/admin/">Content dashboard</a><a href="/api/admin/inquiries?format=csv">Export CSV</a></header>
+<header><h1>Inquiry inbox</h1><a href="/admin/">Content dashboard</a><a href="#" id="export">Export CSV</a></header>
 <main>
   <div class="bar" id="filters" role="group" aria-label="Filter by status"></div>
   <div class="bar"><input type="search" id="q" placeholder="Search name, number, message" aria-label="Search"></div>
@@ -49,8 +49,16 @@
   // Visitor-supplied text is only ever put in with textContent, never as HTML.
   var el = function (tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
 
+  var inboxKey = sessionStorage.getItem('gonest_inbox_key') || '';
+  if (!inboxKey) {
+    inboxKey = window.prompt('Masukkan kunci rahasia Inquiry inbox:') || '';
+    if (inboxKey) sessionStorage.setItem('gonest_inbox_key', inboxKey);
+  }
+
   function api(method, url, body) {
-    return fetch(url, { method: method, headers: body ? { 'Content-Type': 'application/json' } : {}, body: body ? JSON.stringify(body) : undefined, credentials: 'same-origin' })
+    var headers = { 'X-Inbox-Key': inboxKey };
+    if (body) headers['Content-Type'] = 'application/json';
+    return fetch(url, { method: method, headers: headers, body: body ? JSON.stringify(body) : undefined, credentials: 'same-origin' })
       .then(function (r) { return r.json().catch(function () { return { ok: false, error: 'bad_response' }; }).then(function (j) { j.httpStatus = r.status; return j; }); });
   }
 
@@ -124,6 +132,23 @@
 
   var t; $('q').addEventListener('input', function () { clearTimeout(t); t = setTimeout(function () { state.q = $('q').value.trim(); load(true); }, 300); });
   $('more').onclick = function () { load(false); };
+
+  $('export').onclick = function (e) {
+    e.preventDefault();
+    fetch('/api/admin/inquiries?format=csv', { headers: { 'X-Inbox-Key': inboxKey } })
+      .then(function (r) {
+        if (!r.ok) throw new Error('Export gagal (' + r.status + ')');
+        return r.blob();
+      })
+      .then(function (blob) {
+        var url = URL.createObjectURL(blob);
+        var a = document.createElement('a');
+        a.href = url; a.download = 'inquiries.csv'; a.click();
+        URL.revokeObjectURL(url);
+      })
+      .catch(function (err) { alert(err.message); });
+  };
+
   load(true);
 })();
 </script>
